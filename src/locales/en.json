@@ -8,6 +8,13 @@
   },
   "nav": {
     "home": "Home",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "combat": "Combat",
+    "maps": "Maps",
+    "progression": "Progression",
+    "controls": "Controls",
+    "community": "Community",
     "menu": "Menu",
     "toggleTheme": "Toggle theme"
   },
@@ -464,5 +471,33 @@
     "buildGuide": "City Building Guide",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "guide": {
+    "overviewTitle": "RoFront Guides & Walkthroughs",
+    "overviewDescription": "Essential beginner walkthroughs, starter tips, and gameplay guides to master RoFront warfare and territorial expansion."
+  },
+  "mechanics": {
+    "overviewTitle": "RoFront Game Mechanics",
+    "overviewDescription": "Comprehensive breakdown of RoFront economy, resource gathering, diplomacy systems, and core gameplay mechanics."
+  },
+  "combat": {
+    "overviewTitle": "RoFront Combat & War Strategies",
+    "overviewDescription": "Master army mobilization, battle tactics, tactical defenses, and frontline offensive maneuvers in RoFront."
+  },
+  "maps": {
+    "overviewTitle": "RoFront Maps & World Territories",
+    "overviewDescription": "Detailed world maps, tactical territory overviews, choke points, and custom map breakdowns for RoFront."
+  },
+  "progression": {
+    "overviewTitle": "RoFront Progression & Expansion Strategies",
+    "overviewDescription": "Optimal build orders, national expansion tactics, and winning progression strategies to dominate RoFront matches."
+  },
+  "controls": {
+    "overviewTitle": "RoFront Controls & Keybinds",
+    "overviewDescription": "Complete keyboard controls, unit command shortcuts, camera operations, and recommended settings for RoFront."
+  },
+  "community": {
+    "overviewTitle": "RoFront Community & Official Updates",
+    "overviewDescription": "Latest game updates, patch notes, development leaks, Discord links, and community resources for RoFront."
   }
 }
