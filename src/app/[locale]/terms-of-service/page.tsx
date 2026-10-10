@@ -3,9 +3,9 @@ import { LegalPage } from "@/components/legal-page";
 export default function TermsOfServicePage() {
   return (
     <LegalPage title="Terms of Service">
-      <p>This site is an independent fan-made guide hub. Content is provided for informational and entertainment purposes only.</p>
-      <p>Game systems, codes, drops, and update details may change without notice. Always verify important information in-game or through official channels.</p>
-      <p>By using this site, you agree not to misuse it, attempt unauthorized access, or present this fan wiki as an official Midnight Continent or Roblox property.</p>
+      <p>RoFront Wiki is an independent fan-created informational resource. Content is published for gameplay strategy, guides, and entertainment purposes.</p>
+      <p>Game mechanics, nation balance, code availability, and features in RoFront may change with game updates. Information is provided on an as-is basis without warranty.</p>
+      <p>By using this website, you agree not to attempt unauthorized access or misrepresent this fan wiki as an official Torrey Pines or Roblox property.</p>
     </LegalPage>
   );
 }

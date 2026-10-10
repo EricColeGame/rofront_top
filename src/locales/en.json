@@ -1,9 +1,9 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to My Seafood Stand on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
+    "name": "RoFront Wiki",
+    "shortName": "RoFront",
+    "tagline": "Codes, Guide & Strategy",
+    "description": "RoFront Wiki provides complete guides, strategy tips, codes, nation information, and gameplay resources to help Roblox players conquer territories and master global PvP battles.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
@@ -30,17 +30,17 @@
       "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "My Seafood Stand",
-      "description": "Master your restaurant in My Seafood Stand on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Global Territory Strategy PvP",
+      "title": "RoFront Wiki",
+      "description": "RoFront is a Roblox global conquest strategy game where players expand nations, build cities, manage resources, form alliances, and compete for world domination through real-time PvP warfare.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "Roblox Platform",
+        "88 Nations Available",
+        "Territory Conquest",
+        "Real-Time Strategy PvP"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
+      "secondaryCta": "Territory Strategy",
       "tertiaryCta": "Active Codes",
       "videoLabel": "Official media"
     },
@@ -342,8 +342,8 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master My Seafood Stand?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Conquer the World in RoFront?",
+      "description": "From claiming your first nation territory to commanding global PvP wars, our community wiki has you covered with comprehensive strategy guides and updates.",
       "primary": "Read the Beginner Guide",
       "secondary": "Play on Roblox"
     }
@@ -379,21 +379,21 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "RoFront Wiki",
+    "about": "RoFront Wiki is an independent fan-built guide hub covering nation progression, territory expansion, warfare strategies, and essential gameplay knowledge for all RoFront players.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play My Seafood Stand",
-    "officialDiscord": "Official Discord",
-    "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "copyright": "2026 RoFront Wiki. Not affiliated with Torrey Pines or Roblox.",
+    "description": "Roblox global territory conquest strategy PvP game with 88 nations.",
+    "playGame": "Play RoFront on Roblox",
+    "officialDiscord": "Roblox Community",
+    "officialYoutube": "Gameplay Showcase",
+    "vvBuilder": "Strategy Planner",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "raceGuides": "Nation Guides",
+    "bossGuides": "Strategy Guides",
+    "buildGuide": "City Building Guide",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

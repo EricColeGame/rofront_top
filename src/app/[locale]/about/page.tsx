@@ -3,8 +3,8 @@ import { LegalPage } from "@/components/legal-page";
 export default function AboutPage() {
   return (
     <LegalPage title="About">
-      <p>VV Ultimatum Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.</p>
-      <p>The layout, navigation, article cards, and detail format are reproduced from the target VV: ULTIMATUM wiki pages requested for this implementation.</p>
+      <p>RoFront Wiki is an independent fan-built guide hub covering nation progression, territory expansion, warfare strategies, and essential gameplay knowledge for all RoFront players.</p>
+      <p>Our mission is to provide accurate, up-to-date documentation, beginner walkthroughs, and PvP mechanics analysis to help players conquer territories and build thriving nations.</p>
     </LegalPage>
   );
 }
