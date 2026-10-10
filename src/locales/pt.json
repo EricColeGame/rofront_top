@@ -1,1 +1,503 @@
-{}
+{
+  "site": {
+    "name": "RoFront Wiki",
+    "shortName": "RoFront",
+    "tagline": "Códigos, Guias e Estratégias",
+    "description": "A RoFront Wiki oferece guias completos, dicas táticas, códigos, informações sobre nações e recursos de jogo para ajudar jogadores do Roblox a conquistar territórios e dominar batalhas PvP globais.",
+    "legalNotice": "Wiki não oficial criada por fãs. Feita por jogadores, para jogadores."
+  },
+  "nav": {
+    "home": "Início",
+    "guide": "Guia",
+    "mechanics": "Mecânicas",
+    "combat": "Combate",
+    "maps": "Mapas",
+    "progression": "Progressão",
+    "controls": "Controles",
+    "community": "Comunidade",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema"
+  },
+  "home": {
+    "meta": {
+      "title": "RoFront Wiki — Códigos, Guias e Estratégia",
+      "description": "Guia completo de RoFront no Roblox com táticas de combate, funções de esquadrão, armamentos e estratégias de conquista territorial."
+    },
+    "hero": {
+      "eyebrow": "Estratégia PvP de Conquista Territorial Global",
+      "title": "RoFront Wiki",
+      "description": "RoFront é um jogo de conquista global e estratégia no Roblox no qual os jogadores expandem nações, constroem cidades, gerenciam recursos, formam alianças e disputam a dominação mundial em guerras PvP em tempo real.",
+      "stats": [
+        "Plataforma Roblox",
+        "88 Nações Disponíveis",
+        "Conquista de Territórios",
+        "Estratégia PvP em Tempo Real"
+      ],
+      "primaryCta": "Guia para Iniciantes",
+      "secondaryCta": "Estratégia Territorial",
+      "tertiaryCta": "Códigos Ativos",
+      "videoLabel": "Mídia oficial"
+    },
+    "updates": {
+      "title": "Últimas Atualizações",
+      "browse": "Explorar Todos os Guias",
+      "viewAll": "Ver Tudo"
+    },
+    "start": {
+      "eyebrow": "Comece Aqui",
+      "title": "Sua Jornada no RoFront",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para Iniciantes",
+          "description": "Domine a movimentação essencial, o manuseio de armas e os fundamentos de equipe no seu primeiro destacamento no RoFront."
+        },
+        {
+          "number": "2",
+          "title": "Básico de Combate",
+          "description": "Aprenda táticas de guerra de trincheiras, recuperação de supressão e controle de recuo nos setores de combate ativos."
+        },
+        {
+          "number": "3",
+          "title": "Gestão de Recursos",
+          "description": "Administre suprimentos, pontos de sucata e requisição tática para manter seu esquadrão municiado e protegido."
+        },
+        {
+          "number": "4",
+          "title": "Melhores Classes",
+          "description": "Escolha entre Assalto, Suporte com Metralhadora, Médico de Campo, Reconhecimento e Engenheiro para maximizar a sinergia."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas Populares",
+      "title": "Em Alta",
+      "quickLinks": [
+        "Guia para Iniciantes",
+        "Táticas de Combate",
+        "Logística de Recursos",
+        "Funções de Esquadrão"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia para Iniciantes",
+          "description": "Movimentação essencial, controles e posicionamento tático para a sua primeira partida no RoFront.",
+          "href": "/guide/rofront-beginner-guide"
+        },
+        {
+          "badge": "Táticas",
+          "title": "Guia de Combate e Guerra",
+          "description": "Domine os confrontos na linha de frente, a guerra de trincheiras e o controle de setores.",
+          "href": "/combat/rofront-war"
+        },
+        {
+          "badge": "Logística",
+          "title": "Gestão de Recursos",
+          "description": "Administre munições, materiais de sucata e reforços para dar suporte ao seu esquadrão.",
+          "href": "/mechanics/rofront-resources"
+        },
+        {
+          "badge": "Esquadrão",
+          "title": "Classes e Funções do Exército",
+          "description": "Otimize as composições de equipe entre Assalto, Suporte, Médico e Reconhecimento.",
+          "href": "/combat/rofront-army"
+        },
+        {
+          "badge": "Estratégia",
+          "title": "Guia das Melhores Estratégias",
+          "description": "Estratégias avançadas para coordenar ataques em equipe e assegurar vitórias decisivas.",
+          "href": "/progression/rofront-best-strategy"
+        },
+        {
+          "badge": "Controles",
+          "title": "Controles e Teclas de Atalho",
+          "description": "Mapeamento completo do teclado, ajuste de sensibilidade e dicas de mobilidade.",
+          "href": "/controls/rofront-controls"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é RoFront?",
+      "paragraphs": [
+        "RoFront é uma experiência tática de combate militar em grande escala no Roblox focada em confrontos intensos na linha de frente, combates em trincheiras e domínio estratégico de territórios. Os jogadores integram esquadrões organizados em múltiplos teatros de guerra, aproveitando a supressão, a balística realista e o posicionamento tático para superar os adversários.",
+        "Seja invadindo casamatas fortificadas, mantendo a retaguarda como Médico de Campo ou construindo depósitos de munição e barreiras de arame, nossa wiki oferece guias abrangentes, listas de armas e análises táticas para você se destacar no campo de batalha."
+      ],
+      "stats": [
+        {
+          "label": "Desenvolvedor",
+          "value": "Torrey Pines"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "PvP de Guerra Tática"
+        },
+        {
+          "label": "Nações",
+          "value": "88"
+        },
+        {
+          "label": "Motor do Jogo",
+          "value": "Roblox"
+        },
+        {
+          "label": "Modo de Jogo",
+          "value": "Combate em Esquadrão"
+        }
+      ],
+      "cta": "Explorar Todos os Guias"
+    },
+    "explore": {
+      "title": "Explorar a RoFront Wiki",
+      "description": "Domine o combate na linha de frente do RoFront com guias aprofundados de armamento, configurações de classes, táticas de missão e requisitos de sistema.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guia para Iniciantes de RoFront",
+          "description": "Este módulo ajuda novos operadores a entender o ciclo principal de jogo, estrutura de missões, habilidades de combate, progressão e estratégias iniciais cruciais.",
+          "href": "/guide/rofront-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Desembarque com um esquadrão balanceado escolhendo Assalto, Médico ou Suporte"
+            },
+            {
+              "label": "2",
+              "detail": "Controle o fôlego entre trincheiras para não ficar desprotegido em campo aberto"
+            },
+            {
+              "label": "3",
+              "detail": "Use granadas de fumaça para cortar a visão de snipers e reanimar aliados feridos"
+            },
+            {
+              "label": "4",
+              "detail": "Capture setores fortificados e mantenha zonas de controle para esgotar os tickets rivais"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guia de Armas de RoFront",
+          "description": "Este módulo detalha os armamentos disponíveis, melhorias, seleções de equipamentos e recomendações de combate para montar o melhor arsenal.",
+          "href": "/combat/rofront-army",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Rifles de Serviço e DMRs — Alta precisão a média distância, recuo flexível e ótimo poder de parada"
+            },
+            {
+              "label": "A",
+              "detail": "Submetralhadoras — Cadência rápida e mobilidade ágil para invasão de trincheiras e búnkeres"
+            },
+            {
+              "label": "B",
+              "detail": "Metralhadoras Leves — Grande capacidade de munição e fogo contínuo de supressão para conter avanços"
+            },
+            {
+              "label": "C",
+              "detail": "Pistolas Padrão e Espingardas — Armas secundárias para emergências a curtíssima distância"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guia de Missões de RoFront",
+          "description": "Este módulo apresenta objetivos, tipos de missão e táticas essenciais para cumprir cada etapa com sucesso nas frentes de batalha.",
+          "href": "/combat/rofront-war",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Setor",
+              "detail": "Capture e consolide pontos fortificados de controle territorial na linha de frente"
+            },
+            {
+              "label": "Assalto",
+              "detail": "Rompa as linhas de trincheira inimigas e desative ninhos de metralhadora fortificados"
+            },
+            {
+              "label": "Defesa",
+              "detail": "Segure casamatas reforçadas contra ondas sucessivas de infantaria invasora"
+            },
+            {
+              "label": "Recon",
+              "detail": "Monitore movimentações de tropas inimigas e elimine alvos de alto valor tático"
+            },
+            {
+              "label": "Escolta",
+              "detail": "Proteja comboios de suprimentos em trânsito para bases avançadas de munição"
+            },
+            {
+              "label": "Extração",
+              "detail": "Recupere relatórios de inteligência militar e retorne às zonas de extração seguras"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Habilidades e Capacidades em RoFront",
+          "description": "Este módulo explica os atributos dos personagens, o movimento Dash, a habilidade de reflexos e os caminhos de melhoria para potencializar sua performance.",
+          "href": "/mechanics/rofront-mechanics",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Reflexos",
+              "detail": "Aumenta a velocidade de reação e estabiliza a mira durante tiroteios intensos"
+            },
+            {
+              "label": "Dash",
+              "detail": "Execute arrancadas velozes para se deslocar entre coberturas expostas"
+            },
+            {
+              "label": "Supressão",
+              "detail": "Dificulte a visão e a mira adversária com rajadas automáticas persistentes"
+            },
+            {
+              "label": "Reanimar",
+              "detail": "Socorra aliados caídos com rapidez para preservar tickets cruciais de reforço"
+            },
+            {
+              "label": "Fortificar",
+              "detail": "Monte sacos de areia e barreiras de arame farpado em áreas de captura prioritárias"
+            },
+            {
+              "label": "Reabastecer",
+              "detail": "Distribua caixas de munição para manter os colegas de esquadrão sempre abastecidos"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guia de Equipamentos de RoFront",
+          "description": "Este módulo reúne blindagens, coletes, capacetes e utilitários táticos para comparar opções de defesa e otimizar sua configuração de combate.",
+          "href": "/mechanics/rofront-resources",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Colete",
+              "detail": "Armadura balística reforçada que absorve impactos de alto calibre no torso"
+            },
+            {
+              "label": "Capacete",
+              "detail": "Proteção para a cabeça que previne eliminações imediatas por disparos de precisão"
+            },
+            {
+              "label": "Mochila",
+              "detail": "Capacidade ampliada de inventário para carregar cartuchos, granadas e remédios"
+            },
+            {
+              "label": "Máscara",
+              "detail": "Proteção vital contra gases nocivos e densas cortinas de fumaça tática"
+            },
+            {
+              "label": "Granadas",
+              "detail": "Artefatos explosivos e fumígenos para abrir caminho em trincheiras e cobrir avanços"
+            },
+            {
+              "label": "Ferramentas",
+              "detail": "Pás táticas e alicates de arame para construção e quebra de barreiras de defesa"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guia de Inimigos de RoFront",
+          "description": "Este módulo apresenta os tipos de oponentes, padrões táticos e métodos comprovados para neutralizar cada ameaça nos campos de batalha.",
+          "href": "/combat/rofront-defense-strategy",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Assalto",
+              "detail": "Infantaria de choque que avança com agressividade usando fuzis automáticos"
+            },
+            {
+              "label": "Snipers",
+              "detail": "Atiradores camuflados que punem soldados desatentos em campos abertos"
+            },
+            {
+              "label": "Artilheiros",
+              "detail": "Operadores com metralhadoras pesadas posicionados para fechar corredores críticos"
+            },
+            {
+              "label": "Oficiais",
+              "detail": "Comandantes de campo que convocam bombardeios destrutivos de artilharia e morteiros"
+            },
+            {
+              "label": "Flanqueadores",
+              "detail": "Infiltradores furtivos que contornam posições para emboscar pelas costas da trincheira"
+            },
+            {
+              "label": "Blindados",
+              "detail": "Alvos mecanizados com blindagem pesada que exigem explosivos e ação coordenada"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Notícias e Atualizações de RoFront",
+          "description": "Este módulo reúne notas de atualização, anúncios oficiais dos criadores, cronogramas de desenvolvimento e eventos com recompensas.",
+          "href": "/community/rofront-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Cronograma",
+              "detail": "Futuros palcos de batalha, veículos motorizados e novos modos competitivos"
+            },
+            {
+              "label": "Patches",
+              "detail": "Ajustes periódicos de recuo, velocidade dos projéteis e detecção de acertos"
+            },
+            {
+              "label": "Informes",
+              "detail": "Publicações detalhadas dos desenvolvedores sobre planos e mudanças de balanceamento"
+            },
+            {
+              "label": "Eventos",
+              "detail": "Campanhas com tempo limitado que entregam itens cosméticos táticos exclusivos"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Requisitos de Sistema para RoFront",
+          "description": "Este módulo apresenta os requisitos mínimos e recomendados de computador, ajustes gráficos e recomendações para rodar o jogo com fluidez.",
+          "href": "/controls/rofront-settings",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "SO",
+              "detail": "Windows 10 / 11 64 bits ou macOS 11+ com cliente oficial do Roblox",
+              "badge": "Sistema"
+            },
+            {
+              "label": "Processador",
+              "detail": "Intel Core i5-4460 / AMD Ryzen 3 1200 quad-core",
+              "badge": "Hardware"
+            },
+            {
+              "label": "Memória",
+              "detail": "8 GB de RAM no mínimo, 16 GB recomendados para combates massivos",
+              "badge": "Memória"
+            },
+            {
+              "label": "Placa de Vídeo",
+              "detail": "NVIDIA GeForce GTX 960 / AMD Radeon R9 280 (DirectX 11)",
+              "badge": "Vídeo"
+            },
+            {
+              "label": "Armazenamento",
+              "detail": "SSD recomendado para carregamento veloz de cenários e texturas",
+              "badge": "Armazenamento"
+            },
+            {
+              "label": "Rede",
+              "detail": "Conexão de banda larga com ping baixo e estável",
+              "badge": "Rede"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "description": "Respostas rápidas para as principais dúvidas sobre jogabilidade, mecânicas de combate e táticas no RoFront.",
+      "items": [
+        {
+          "question": "O que é RoFront?",
+          "answer": "RoFront é uma experiência tática de combate militar no Roblox com grandes batalhas na linha de frente, ação coordenada em equipe e disputa por territórios."
+        },
+        {
+          "question": "Qual classe é ideal para iniciantes no RoFront?",
+          "answer": "Para quem está começando, as classes de Assalto e Médico de Campo são as melhores, pois oferecem ótimo equilíbrio de poder de fogo e sobrevivência de equipe."
+        },
+        {
+          "question": "Como funciona o sistema de supressão no RoFront?",
+          "answer": "No RoFront, o fogo inimigo contínuo causa visão tubular e eleva o recuo das armas, forçando o soldado a buscar proteção até recuperar a estabilidade."
+        },
+        {
+          "question": "Existem códigos promocionais ativos no RoFront?",
+          "answer": "O RoFront divulga esporadicamente códigos de recompensa com visuais cosméticos, créditos táticos e emblemas de perfil em eventos comemorativos."
+        },
+        {
+          "question": "Como os recursos e os tickets definem a vitória no RoFront?",
+          "answer": "A vitória é alcançada capturando setores estratégicos para zerar os tickets de reforço rivais, além de usar sucata para construir fortificações defensivas."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para Conquistar o Mundo no RoFront?",
+      "description": "Desde a tomada do seu primeiro território até a liderança em guerras globais PvP, nossa wiki da comunidade traz guias de estratégia completos e novidades frequentes.",
+      "primary": "Ler o Guia para Iniciantes",
+      "secondary": "Jogar no Roblox"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da Wiki",
+    "activeCodes": "Códigos Ativos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogar no Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos Passos",
+    "needHelp": "Precisa de Ajuda?",
+    "relatedReading": "Leituras Relacionadas",
+    "relatedGuides": "Guias Relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Nenhum guia disponível no momento. Volte em breve!"
+  },
+  "footer": {
+    "aboutTitle": "RoFront Wiki",
+    "about": "A RoFront Wiki é uma central independente mantida por fãs cobrindo progressão nacional, expansão territorial, táticas de combate e mecânicas indispensáveis para a comunidade de RoFront.",
+    "quickLinks": "Links Rápidos",
+    "guides": "Guias",
+    "legal": "Legal",
+    "copyright": "2026 RoFront Wiki. Não afiliado à Torrey Pines nem ao Roblox.",
+    "description": "Jogo de estratégia PvP de conquista territorial global no Roblox com 88 nações.",
+    "playGame": "Jogar RoFront no Roblox",
+    "officialDiscord": "Comunidade Roblox",
+    "officialYoutube": "Mostra de Jogabilidade",
+    "vvBuilder": "Planejador Estratégico",
+    "beginnerGuide": "Guia para Iniciantes",
+    "raceGuides": "Guias de Nações",
+    "bossGuides": "Guias de Estratégia",
+    "buildGuide": "Guia de Construção",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  },
+  "guide": {
+    "overviewTitle": "Guias e Tutoriais de RoFront",
+    "overviewDescription": "Passo a passo indispensável para iniciantes, dicas de partida e guias de jogabilidade para dominar a guerra e a expansão territorial no RoFront."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de Jogo de RoFront",
+    "overviewDescription": "Visão aprofundada da economia, coleta de recursos, sistemas diplomáticos e mecânicas principais de RoFront."
+  },
+  "combat": {
+    "overviewTitle": "Estratégias de Combate e Guerra em RoFront",
+    "overviewDescription": "Domine a mobilização de tropas, táticas de confronto, defesas táticas e avanços ofensivos na frente de batalha em RoFront."
+  },
+  "maps": {
+    "overviewTitle": "Mapas e Territórios do Mundo em RoFront",
+    "overviewDescription": "Mapas mundiais detalhados, visão tática de territórios, pontos de estrangulamento e análise geográfica em RoFront."
+  },
+  "progression": {
+    "overviewTitle": "Estratégias de Progressão e Expansão em RoFront",
+    "overviewDescription": "Ordem ideal de construção, táticas de conquista de territórios e estratégias vencedoras para triunfar nas partidas de RoFront."
+  },
+  "controls": {
+    "overviewTitle": "Controles e Teclas de Atalho de RoFront",
+    "overviewDescription": "Mapeamento completo do teclado, atalhos de comando de unidades, operação da câmera e configurações recomendadas para RoFront."
+  },
+  "community": {
+    "overviewTitle": "Comunidade e Atualizações Oficiais de RoFront",
+    "overviewDescription": "Últimas novidades do jogo, notas de atualização, vazamentos de produção, links do Discord e recursos comunitários de RoFront."
+  }
+}
