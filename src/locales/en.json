@@ -13,8 +13,8 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "RoFront Wiki — Codes, Guide & Strategy",
+      "description": "Complete RoFront guide on Roblox with tactical combat guides, squad roles, weapon loadouts, and territory conquest strategies."
     },
     "hero": {
       "eyebrow": "Global Territory Strategy PvP",
@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your RoFront Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Master essential movement, weapon handling, and squad basics for your initial RoFront deployment."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Combat Basics",
+          "description": "Learn trench warfare tactics, suppression recovery, and effective recoil control across active combat sectors."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Resource Guide",
+          "description": "Manage supplies, scrap nodes, and tactical requisition points to keep your fireteam armed and fortified."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Best Class Guide",
+          "description": "Choose between Assault, Support Gunner, Field Medic, Recon, and Combat Engineer to maximize team synergy."
         }
       ]
     },
@@ -66,78 +66,60 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Combat Tactics",
+        "Resource Logistics",
+        "Squad Roles"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Essential movement, controls, and tactical positioning for your first RoFront match.",
+          "href": "/guide/rofront-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Tactics",
+          "title": "War Combat Guide",
+          "description": "Master frontline engagements, trench fighting, and sector control mechanics.",
+          "href": "/combat/rofront-war"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Logistics",
+          "title": "Resource Management",
+          "description": "Manage munitions, scrap materials, and reinforcements to support your fireteam.",
+          "href": "/mechanics/rofront-resources"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Squad",
+          "title": "Army Roles & Classes",
+          "description": "Optimize squad loadouts across Assault, Support Gunner, Medic, and Recon.",
+          "href": "/combat/rofront-army"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Strategy",
+          "title": "Best Strategy Guide",
+          "description": "Top-tier strategies to coordinate team offensives and claim decisive victories.",
+          "href": "/progression/rofront-best-strategy"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Controls",
+          "title": "Controls & Keybinds",
+          "description": "Complete keyboard layout, sensitivity tuning, and movement tips.",
+          "href": "/controls/rofront-controls"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is RoFront?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "RoFront is a large-scale tactical multiplayer combat game on Roblox centered on intense frontline warfare, trench skirmishes, and strategic territory control. Players join organized squads across diverse combat theaters, managing suppression mechanics, realistic weapon ballistics, and tactical positioning to outmaneuver enemy forces.",
+        "Whether you are leading an assault into fortified bunkers, sustaining your frontline as a Field Medic, or establishing supply depots and defensive barriers, our wiki provides comprehensive guides, weapon databases, and tactical walkthroughs to help you dominate the battlefield."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Torrey Pines"
         },
         {
           "label": "Platform",
@@ -145,158 +127,270 @@
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Tactical War PvP"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Nations",
+          "value": "88"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Game Engine",
+          "value": "Roblox"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Game Mode",
+          "value": "Squad Combat"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore RoFront Wiki",
+      "description": "Master frontline combat in RoFront with comprehensive weapon guides, class loadouts, mission tactics, and system specifications.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "RoFront Beginner Guide",
+          "description": "This module helps new players understand the core gameplay loop, mission structure, combat abilities, progression systems, and essential early strategies. It targets beginner searches and provides a clear starting point for new Operators.",
+          "href": "/guide/rofront-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Deploy with a balanced squad choosing Assault, Medic, or Support"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Pace stamina between trench lines to avoid exposure in open fields"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Throw smoke grenades to obscure sniper sightlines and revive downed teammates"
+            },
+            {
+              "label": "4",
+              "detail": "Capture fortified sectors and hold control zones to drain enemy tickets"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "RoFront Weapons Guide",
+          "description": "This module covers available weapons, weapon upgrades, loadout choices, and combat recommendations. It helps players searching for weapon information and the best equipment combinations.",
+          "href": "/combat/rofront-army",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "Service Rifles & DMRs — Supreme mid-range precision, adaptable recoil, and high stopping power"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "A",
+              "detail": "Submachine Guns — Lethal rapid fire and snappy handling for trench clearing and bunker breaches"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "B",
+              "detail": "Light Machine Guns — High magazine capacity and relentless suppression for sustained corridor defense"
+            },
+            {
+              "label": "C",
+              "detail": "Standard Pistols & Shotguns — Situational secondary weapons for emergency close-quarters defense"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "RoFront Missions Guide",
+          "description": "This module provides mission details, objectives, mission types, and completion strategies. It is designed for players looking for walkthrough support and mission progression information.",
+          "href": "/combat/rofront-war",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Sector",
+              "detail": "Capture and secure fortified frontline territory control points"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Assault",
+              "detail": "Breach enemy defensive trench lines and neutralize fortified nests"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Defense",
+              "detail": "Hold reinforced bunkers against continuous waves of enemy infantry"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Recon",
+              "detail": "Spot enemy squad movements and eliminate high-value targets"
+            },
+            {
+              "label": "Escort",
+              "detail": "Protect critical supply convoys moving toward forward ammunition depots"
+            },
+            {
+              "label": "Extract",
+              "detail": "Secure tactical intelligence documents and rally at extraction zones"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "RoFront Skills And Abilities",
+          "description": "This module explains character attributes, progression systems, Dash movement, Reflex slow-motion ability, and upgrade choices. It targets searches related to builds and character improvement.",
+          "href": "/mechanics/rofront-mechanics",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Reflexes",
+              "detail": "Heighten tactical reaction speed and stabilize weapon recoil during firefights"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Dash",
+              "detail": "Execute rapid evasion sprints between exposed cover points"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Suppress",
+              "detail": "Impair enemy vision and weapon accuracy using heavy sustained automatic fire"
+            },
+            {
+              "label": "Revive",
+              "detail": "Restore downed squadmates quickly to preserve vital reinforcement tickets"
+            },
+            {
+              "label": "Fortify",
+              "detail": "Construct defensive sandbags and wire barricades around critical capture zones"
+            },
+            {
+              "label": "Resupply",
+              "detail": "Distribute munition crates to prevent squadmates from running dry"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "RoFront Equipment Guide",
+          "description": "This module organizes armor, gear, equipment slots, and upgrade options. It helps players compare defensive choices and optimize their operator setup.",
+          "href": "/mechanics/rofront-resources",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Vest",
+              "detail": "Reinforced ballistic armor mitigating high-caliber torso damage"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Helmet",
+              "detail": "Tactical headgear preventing fatal single-shot sniper eliminations"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Backpack",
+              "detail": "Expanded gear capacity for extra magazines, grenades, and medical supplies"
+            },
+            {
+              "label": "Gas Mask",
+              "detail": "Essential protection against toxic gas and heavy smoke grenade clouds"
+            },
+            {
+              "label": "Grenades",
+              "detail": "Explosive and smoke utility for breaching trenches and masking movement"
+            },
+            {
+              "label": "Tools",
+              "detail": "Field entrenching shovels and wire cutters for fortification construction"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "RoFront Enemies Guide",
+          "description": "This module introduces enemy types, infected enemies, combat patterns, and strategies for surviving encounters. It supports players searching for enemy information and combat tips.",
+          "href": "/combat/rofront-defense-strategy",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Assault",
+              "detail": "Aggressive shock infantry pushing aggressively with fast-firing automatic rifles"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Snipers",
+              "detail": "Concealed marksmen punishing exposed soldiers across wide sightlines"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Gunners",
+              "detail": "Entrenched heavy machine gunners locking down critical corridor lanes"
+            },
+            {
+              "label": "Officers",
+              "detail": "Command personnel calling in devastating artillery strikes and mortar fire"
+            },
+            {
+              "label": "Flankers",
+              "detail": "Stealth infiltrators exploiting blind spots to execute rear trench ambushes"
+            },
+            {
+              "label": "Armor",
+              "detail": "Fortified mechanized defenders requiring coordinated anti-armor explosives"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "RoFront Updates And News",
+          "description": "This module collects official development updates, patches, roadmap information, and new content announcements. It helps users track game changes and future features.",
+          "href": "/community/rofront-updates",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Roadmap",
+              "detail": "Upcoming new battlefront theaters, combat vehicles, and competitive modes"
+            },
+            {
+              "label": "Patches",
+              "detail": "Regular balance adjustments for weapon recoil, bullet velocity, and hitboxes"
+            },
+            {
+              "label": "Briefings",
+              "detail": "Official developer posts covering upcoming content and balance shifts"
+            },
+            {
+              "label": "Events",
+              "detail": "Limited-time battlefield campaigns offering unique tactical cosmetic gear"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "RoFront System Requirements",
+          "description": "This module displays minimum and recommended PC requirements, technical settings, and performance-related information. It targets users searching whether their device can run the game.",
+          "href": "/controls/rofront-settings",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "OS",
+              "detail": "Windows 10 / 11 64-bit or macOS 11+ running Roblox Client",
+              "badge": "System"
+            },
+            {
+              "label": "Processor",
+              "detail": "Intel Core i5-4460 / AMD Ryzen 3 1200 quad-core processor",
+              "badge": "Hardware"
+            },
+            {
+              "label": "Memory",
+              "detail": "8 GB RAM minimum, 16 GB RAM recommended for large matches",
+              "badge": "Memory"
+            },
+            {
+              "label": "Graphics",
+              "detail": "NVIDIA GeForce GTX 960 / AMD Radeon R9 280 (DirectX 11)",
+              "badge": "Graphics"
+            },
+            {
+              "label": "Storage",
+              "detail": "SSD storage recommended for faster asset streaming and loading",
+              "badge": "Storage"
+            },
+            {
+              "label": "Network",
+              "detail": "Broadband Internet connection with stable low-latency ping",
+              "badge": "Network"
             }
           ]
         }
@@ -304,27 +398,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "description": "Quick answers to common questions about RoFront gameplay, combat mechanics, and strategy.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is RoFront?",
+          "answer": "RoFront is a tactical military warfare experience on Roblox featuring large-scale frontline combat, squad coordination, and strategic sector control."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Which class should beginners choose in RoFront?",
+          "answer": "For newcomers to RoFront, the Assault or Field Medic classes are ideal, providing balanced combat capabilities and crucial squad survivability."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How does the suppression mechanic function in RoFront?",
+          "answer": "In RoFront, heavy incoming fire causes visual tunnel vision and increased weapon recoil, requiring players to take cover until stamina and composure recover."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Are there working redeem codes available in RoFront?",
+          "answer": "RoFront periodically distributes promo codes for bonus cosmetic skins, tactical currency, and profile rewards during seasonal events."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How do resources and tickets determine victory in RoFront?",
+          "answer": "Victory in RoFront depends on capturing strategic sectors to bleed enemy reinforcement tickets while using scrap supplies to construct fortified defenses."
         }
       ]
     },
