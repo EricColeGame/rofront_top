@@ -1,133 +1,81 @@
 export const metadata = {
-  title: "RoFront Custom Map Erstellungs-Guide: Beste Layouts und Level-Design-Tipps",
-  description: "Meistern Sie das RoFront Custom Map Design mit unserem umfassenden Leitfaden zu taktischen Layouts, Engpässen, Spawn-Balancing und Asset-Optimierung.",
+  title: "RoFront Custom Map: Was existiert und wie man es überprüft",
+  description: "Sie suchen nach einer RoFront Custom Map? Hier erfahren Sie, was der offizielle Roblox-Eintrag dokumentiert, was nicht, und wie Sie Kartenoptionen selbst überprüfen können.",
   category: "maps",
-  date: "2026-10-10",
+  date: "2026-10-14",
 };
 
-Benutzerdefinierte Umgebungen sind das Lebenselixier taktischer Shooter; sie prägen die Art und Weise, wie Squads manövrieren, Gebäude stürmen und Positionen halten. Der Bau einer erfolgreichen RoFront Custom Map erfordert ein tiefes Verständnis von räumlichem Pacing, Sichtlinienkontrolle und struktureller Balance. Präzise gestaltet verwandelt eine RoFront Custom Map gewöhnliche Feuergefechte in unvergessliche, hochspannende taktische Duelle, die Spieler Runde für Runde fesseln.
+Wenn Sie nach einer **RoFront Custom Map** gesucht haben, möchten Sie wahrscheinlich eine von zwei Fragen beantworten: ob Sie auf einer anderen Karte als der Standardwelt spielen können, oder ob Sie eine erstellen und teilen können. Die ehrliche Antwort, basierend auf den verfügbaren Quellen, ist, dass weder das eine noch das andere dokumentiert ist. Das bedeutet nicht, dass die Frage unbeantwortbar ist — es bedeutet, dass die Antwort vom Spiel selbst kommen muss und nicht von einem Leitfaden, der rät.
 
-Egal, ob Sie verwinkelte Nahkampf-Grabensysteme oder weitläufige Kampfarenen für verbundene Waffen erschaffen möchten: Die Beherrschung der Grundlagen der Level-Geometrie ist unerlässlich. Dieser umfassende Leitfaden führt Sie durch die zentralen Designprinzipien, räumlichen Bewegungsmuster, Optimierungstechniken und Iterationsprozesse, die erforderlich sind, um ein erstklassiges Schlachtfeld zu veröffentlichen.
+Hier ist, was der offizielle Eintrag tatsächlich aussagt, was ein Drittanbieter-Leitfaden ergänzt und wie Sie die Kartensituation in einer Live-Sitzung überprüfen können.
 
-## Grundlegende Designprinzipien für eine ausgewogene RoFront Custom Map
+## Was der offizielle Eintrag über die Karte dokumentiert
 
-Jede denkwürdige Militärarena überzeugt dadurch, dass sie das Zusammenspiel aus Bewegungsgeschwindigkeit der Spieler, effektiver Waffenreichweite und Reaktionszeiten respektiert. Das Design eines taktischen Schlachtfelds erfordert eine gezielte Planung von Deckungsdichte, vertikaler Hierarchie und Rotationsrouten. Ohne strenge räumliche Kontrolle arten Matches schnell in frustrierendes Spawn-Camping oder einen von Scharfschützen dominierten Stillstand aus.
+RoFront [World PvP] ist ein Roblox-Strategieerlebnis von Torrey Pines, veröffentlicht unter [place 137151641329864](https://www.roblox.com/games/137151641329864/RoFront). Die verifizierte Beschreibung besagt, dass es „Based on the Open Front game" ist und beschreibt „Real-time territory conquest". Sie enthält außerdem eine direkte Credit-Zeile: „Map Credits to Open Front."
 
-Level-Designer müssen drei primäre Gefechtszonen ausbalancieren: Hauptkampfsektoren, Übergangskorridore und defensive Ankerpunkte. Beim Bau einer RoFront Custom Map bestimmt das Pacing, wie aggressiv Spieler vorrücken können, ohne durch unkontrollierte Schusswinkel bestraft zu werden.
+Dieser Credit ist die einzige wichtigste Tatsache für dieses Keyword. Die Karte in RoFront wird einem anderen Projekt zugeschrieben und nicht als spielereditierbares oder spielerauswählbares Asset präsentiert. Die Beschreibung listet auf, was Sie in einem Match tun können — von einer einzigen Nation aus expandieren, Nachbarn angreifen, Städte, Häfen und Fabriken bauen, Allianzen schmieden, Atomwaffen abfeuern — und keiner dieser Punkte ist ein Karteneditor, ein Kartenbrowser oder ein Custom-Map-Slot.
 
-```
-[Basis Alpha] ---> [Übergangskorridor] ---> [Umkämpfter Stützpunkt] <--- [Übergangskorridor] <--- [Basis Bravo]
-```
+Die beworbene Siegbedingung ist, 80 % der Welt zu erobern. Diese Formulierung setzt eine gemeinsame Welt pro Match voraus, was mit einer festen Karte konsistent ist und nicht mit einer rotierenden oder benutzerdefinierten.
 
-Ein ausgewogenes Gefechtsgerüst stellt sicher, dass Sturmgewehre, Maschinenpistolen und Präzisionsgewehre jeweils eigene Zonen haben, in denen ihre Stärken voll zur Geltung kommen.
+## Beworbene Features vs. Kartenanpassung
 
-| Gefechtszone | Typische Kampfdistanz | Primäre Deckungsdichte | Empfohlene Bewaffnung | Design-Priorität |
-| :--- | :--- | :--- | :--- | :--- |
-| **Zone A: Stützpunktkern** | 5 – 15 Meter | Dicht (Sandsäcke, Innenwände, Kisten) | MPs, Schrotflinten, Karabiner | Schnelles Räumen von Räumen, Einbrüche aus mehreren Winkeln |
-| **Zone B: Taktische Innenhöfe** | 15 – 45 Meter | Moderat (Barrikaden, Fahrzeugwracks) | Sturmgewehre, Kampfgewehre | Flankierungsmöglichkeiten, Kreuzfeuer-Positionen |
-| **Zone C: Außenbereich-Aussichtspunkte** | 45 – 90+ Meter | Spärlich (Erhöhte Wälle, Schießscharten) | DMRs & Scharfschützengewehre | Kontrollierte Sichtlinien, beidseitige Exposition |
-| **Zone D: Flankierungsgräben** | 10 – 25 Meter | Hoch (Erdvertiefungen, Grabenverkleidungen) | Schrotflinten, CQB-Karabiner | Heimliche Rotation, Umgehen von Missionszielen |
+Es hilft, drei Kategorien klar zu trennen, weil Suchergebnisse dazu neigen, sie zu vermischen.
 
-### Sichtlinienregulierung und die „Dreiwinkel-Regel“
+| Kategorie | Status in den Quellen |
+| --- | --- |
+| Beworbene Gameplay-Features | Territoriumserweiterung, Angriff auf Nachbarn, Städte, Häfen, Fabriken, Allianzen, Atomwaffen, 80-%-Eroberungsziel |
+| Kartenzuordnung | Im offiziellen Beschreibungstext Open Front zugeschrieben |
+| Erstellung oder Auswahl eigener Karten | In keiner der geprüften Quellen dokumentiert |
 
-Ein häufiger Fehler von Einsteigern sind lange, ununterbrochene Sichtachsen, die es einem einzelnen Spieler ermöglichen, einen kompletten Sektor abzuriegeln. Taktische Umgebungen leben von der „Dreiwinkel-Regel“: Ein Spieler, der eine befestigte Position hält, sollte idealerweise nur zwei unterschiedliche Bedrohungsvektoren gleichzeitig überwachen müssen – mit maximaler Verwundbarkeit gegenüber drei Richtungen.
+Die mittlere Zeile ist wichtig. Ein Karten-Credit ist eine Anerkennung der Herkunft. Es ist keine Aussage darüber, dass die Karte modifizierbar ist, und es ist keine Aussage darüber, dass alternative Karten existieren. Es als eines von beidem zu lesen, wäre eine Schlussfolgerung, keine Tatsache.
 
-Ist ein Operator an einem Zielpunkt vier oder mehr unabhängigen, erhöhten Winkeln ausgesetzt, fühlt sich die Position unfair statt taktisch an. Brechen Sie offene Flächen durch Mikroterrain, Frachtcontainer, Mauerruinen und versetzte Ecken auf, die Spieler zu klaren Positionsentscheidungen zwingen.
+## Warum „Custom Map"-Suchen oft danebengreifen
 
-## Architektonische Layouts und Spielfluss in der RoFront Custom Map Entwicklung
+Roblox hat ein großes Ökosystem von Spielen mit Karteneditoren, und Spieler tragen diese Erwartung verständlicherweise in neue Titel hinein. RoFront ist ein Territoriumseroberungsspiel, kein Sandbox-Builder. Seine Schleife, wie beschrieben, dreht sich um Grenzen, Nachbarn und einen Weltkontrollmesser — nicht um das Platzieren von Gelände.
 
-Das bauliche Grundgerüst Ihrer Arena bestimmt das Match-Tempo, das Nachschub-Timing und die Absicherung der Zielpunkte. Die Wahl der richtigen Layout-Topologie hängt von den geplanten Spielmodi und der Spieleranzahl auf dem Server ab.
+Es gibt auch eine Namensfalle. Der Drittanbieter-[Nisu-Leitfaden](https://nisu.io/guides/rofront-roblox-guide/) warnt ausdrücklich, dass „Searches for similar names can lead to unrelated games or videos", und merkt an, dass ein Tutorial für den Roblox-Shooter Frontlines dieses Erlebnis nicht erklären wird. Wenn Sie auf einer Seite über Custom Maps für ein anderes Spiel mit ähnlichem Namen gelandet sind, ist das wahrscheinlich, was passiert ist.
 
-Erfahrungsberichte aus der Community zeigen, dass symmetrische Designs die fairste Ausgangsbasis für kompetitive Gefechte bieten, während asymmetrische Layouts für Angriffs- und Verteidigungsoperationen eine tiefere narrative und taktische Immersion erzeugen.
+## Wie Sie Kartenoptionen selbst überprüfen
 
-| Layout-Archetyp | Symmetriegrad | Strukturelles Pacing | Beste Eignung für Modi | Primäre Herausforderung |
-| :--- | :--- | :--- | :--- | :--- |
-| **Drei-Wege-Klassiker (Three-Lane)** | Symmetrisch | Schnelle, vorhersehbare Rotationen | Team-Deathmatch, Herrschaft | Vermeidung repetitiver Pattsituationen auf der Mittelroute |
-| **Achterform (Crossover)** | Semi-symmetrisch | Dynamisch, häufige Flankenbegegnungen | Hardpoint, King of the Hill | Kontrolle chaotischer Kreuzungen im Zentrum |
-| **Asymmetrische Festung** | Asymmetrisch | Methodische, spannungsgeladene Vorstöße | Suchen & Zerstören, Angriff/Verteidigung | Ausbalancieren defensiver Höhenvorteile |
-| **Konzentrischer Ring** | Radialsymmetrisch | Kontinuierliche Rotation, viele Flankierungen | Jeder gegen jeden, Multi-Team King | Verhindern unkontrollierter Zusammenbrüche im hinteren Spawn-Bereich |
-| **Linearer Sektorgraben** | Direktional | Frontlinien-Vorstoß, schrittweises Tauziehen | Push, Frontlinien-Operationen | Vermeidung von Laufmüdigkeit beim Spawn-Weg |
+Da keine Quelle Custom Maps dokumentiert, ist der zuverlässige Weg die direkte Inspektion. Diese Schritte nutzen nur das offizielle Erlebnis und den Ersteller.
 
-### Implementierung dynamischer Engpässe (Choke Points)
+1. Öffnen Sie die [offizielle RoFront-Seite](https://www.roblox.com/games/137151641329864/RoFront) und bestätigen Sie, dass der Ersteller Torrey Pines lautet, bevor Sie irgendetwas beitreten.
+2. Betreten Sie ein Match und schauen Sie in der Vor-Match- oder Lobby-Oberfläche nach Kartenauswahl, Kartenabstimmung oder Kartenlisten-Steuerung.
+3. Prüfen Sie während des Spiels, ob ein Menü einen Karteneditor, Import oder eine Freigabeoption bietet.
+4. Wenn Sie nichts finden, behandeln Sie Custom Maps als undokumentiert statt als bestätigt abwesend — Features können existieren, ohne aufgeschrieben zu sein.
 
-Engpässe (Choke Points) leiten gegnerische Trupps aufeinander zu und schaffen so natürliche Höhepunkte im Gefecht. Ein harter Engpass – wie etwa ein einzelnes schmales Panzertor – führt jedoch oft zu zähem Granatenspam und Stillstand.
+Schritt vier ist bewusst gewählt. „Nicht dokumentiert" und „existiert nicht" sind unterschiedliche Behauptungen, und nur die erste wird hier gestützt.
 
-Um einen flüssigen Spielablauf auf einer RoFront Custom Map zu gewährleisten, sollten Sie stets „weiche Umgehungen“ (Soft Bypasses) anbieten. Eine solche Ausweichroute kann ein Fenster zum Durchklettern sein, ein Lüftungsschacht zum Durchkriechen oder ein Seitengraben, der zwar mehr Laufzeit erfordert, clevere Flankierer jedoch mit einem Positionsvorteil gegenüber verschanzten Verteidigern belohnt.
+## Strategisches Lesen einer Festkarten-Prämisse
 
-## Schritt-für-Schritt-Bauplan: So erstellen Sie Ihre RoFront Custom Map
+Das Folgende ist Rat, der aus einer Territoriumseroberungs-Prämisse abgeleitet ist, nicht gemessene Mechaniken. Wenn die Welt in jedem Match dieselbe ist, wird Kartenwissen zu einem wiederholbaren Asset.
 
-Der Aufbau einer taktischen Umgebung erfordert einen disziplinierten, phasenbasierten Workflow. Wer sich direkt auf detaillierte Texturen und Dekorationselemente stürzt, bevor die spielerischen Proportionen geprüft wurden, verschwendet fast immer wertvolle Arbeitszeit.
+- **Lernen Sie Ihre Startregion.** Der Nisu-Leitfaden schlägt vor, Ihr Territorium, seine Grenzen und Nachbarnationen zu lokalisieren, bevor Sie sich auf irgendetwas festlegen. Auf einer festen Karte trägt dieses Wissen in Ihr nächstes Match.
+- **Merken Sie sich Engpässe und Küstenlinien.** Häfen sind eine beworbene Bauoption, was impliziert, dass Wasser wichtig ist. Zu beobachten, wo Küstenlinien relativ zu Ihren Grenzen liegen, ist eine vernünftige Gewohnheit, obwohl die Quellen nicht beschreiben, wie Häfen funktionieren.
+- **Verfolgen Sie die Weltkontrollanzeige.** Der Nisu-Leitfaden empfiehlt, das Weltkontrollmesser zu beobachten, statt den Fortschritt danach zu beurteilen, wie groß Ihr farbiger Bereich beim aktuellen Zoom aussieht.
+- **Machen Sie einen bewussten Zug und beobachten Sie dann.** Diese Lernroutine stammt aus demselben Drittanbieter-Leitfaden und ist eine sinnvolle Methode, um Kartenvertrautheit aufzubauen, ohne sich auf unbestätigte Build-Reihenfolgen zu verlassen.
 
-```
-Phase 1: Grayboxing  ==>  Phase 2: Skalierungstests  ==>  Phase 3: Logik & Spawns  ==>  Phase 4: Art Pass
-```
+Nichts davon verspricht einen Sieg. Das veröffentlichte Ziel ist 80 % Weltkontrolle, und ein einzelner erfolgreicher Angriff erreicht das nicht.
 
-Das Befolgen einer iterativen Pipeline stellt sicher, dass Ihre strukturellen Mechaniken praxiserprobt sind, bevor Sie Stunden in Beleuchtung und dekorative Assets investieren.
+## Was undokumentiert bleibt
 
-| Phasennummer | Meilensteinziel | Kernaktivitäten | Wichtigste Validierungsmetrik |
-| :--- | :--- | :--- | :--- |
-| **Phase 1: Blockout** | Grundlegende Geometrie festlegen | Primitive Formen für Gebäude, Hügel und Deckungen bauen | Grundlegende Bewegung fühlt sich natürlich an; keine Stellen, an denen man feststeckt |
-| **Phase 2: Maßstabsprüfung** | Bewegungsmetriken testen | Kletterhöhen, Türbreiten und Deckungshöhen überprüfen | Deckungen passen zu den Hocke- und Stehhöhen der Charaktermodelle |
-| **Phase 3: Missionsziele & Spawns** | Spielregeln implementieren | Spawn-Punkte, Flaggen, Munitionskisten und Zonengrenzen platzieren | Laufzeit zwischen Spawn und umkämpfter Zone: 8–14 s |
-| **Phase 4: Visuelles Thema** | Materialien & Modelle anwenden | Graue Blöcke durch Barrieren, Mauern und Terrain ersetzen | Visuelle Klarheit bleibt gewahrt; hohe Lesbarkeit von Silhouetten |
-| **Phase 5: Audio & Beleuchtung** | Atmosphärischer Feinschliff | Gebackene Lichter, Schatten und Schalldämpfung konfigurieren | Dunkelheit verdeckt Ziele nicht über faire Grenzen hinaus |
+Um direkt über die Lücken zu sein: Es gibt kein dokumentiertes Custom-Map-Tool, keine Kartenliste, keine Kartencodes, kein Community-Karten-Repository und keine Ersteller-Aussage über Kartenbearbeitung in den geprüften Quellen. Es gibt auch keinen dokumentierten Discord-Server, kein Update-Log und keine Patch-Notes, die mit Karten verbunden sind.
 
-### Spawn-Schutz und Sichtliniensicherheit
+Eine Zahl verdient Sorgfalt. Die Beschreibung erwähnt „88 player nations and hundreds of tribes". Das ist eine Beschreibungsaussage über die Spielwelt. Es ist keine Serverkapazitätszahl und sollte nicht als solche gelesen werden. Der Nisu-Leitfaden merkt an, dass Roblox' separates Feld Server Size beim Nachschauen 30 anzeigte und dass der Eintrag nicht erklärt, wie die beiden Zahlen zusammenhängen.
 
-Spawns sind das empfindlichste Element jeder taktischen Arena. Wenn ein Gegner von der anderen Seite der Karte direkt in den Spawn-Bereich eines Teams blicken kann, bricht die Spielbalance zusammen.
+## FAQ
 
-Wenden Sie bei der Planung von Basiszonen für eine RoFront Custom Map stets das „Hundekurven“-Prinzip (Dog-Leg-Zugang) an. Spieler, die den Spawn verlassen, sollten mindestens eine abgewinkelte Kurve hinter hohen baulichen Schutzwänden passieren müssen, bevor sie in eine aktive Sichtlinie treten. Integrieren Sie zudem mehrere voneinander getrennte Ausgänge, damit das verteidigende Team nicht an einer einzigen Tür festgenagelt werden kann.
+**Hat RoFront ein Custom-Map-Feature?**
+Keine Quelle dokumentiert eines. Die offizielle Beschreibung schreibt die Karte Open Front zu und listet keinen Karteneditor oder Kartenauswahl auf.
 
-## Leistungsoptimierung und Asset-Management
+**Kann ich meine eigene Karte in RoFront erstellen?**
+Nach keiner verfügbaren Quelle. Überprüfen Sie es im Spiel, indem Sie Menüs auf Editor- oder Importoptionen prüfen.
 
-Taktisches Gameplay hängt von hohen Bildwiederholraten, präziser Treffererkennung und direkter Steuerung ab. Eine überladene Karte mit unoptimierten Polygonmengen oder zu vielen dynamischen Lichtquellen verursacht Frame-Pacing-Ruckler, die Feuergefechte ruinieren.
+**Ist die RoFront-Karte dieselbe wie die von Open Front?**
+Die Beschreibung schreibt Open Front die Karte zu. Sie besagt nicht, ob die RoFront-Version identisch, modifiziert oder skaliert ist.
 
-Um ein sauberes Rendering auf unterschiedlichsten Hardware-Konfigurationen zu gewährleisten, sollten Entwickler moderne Richtlinien der Engine befolgen – etwa die Empfehlungen zu Asset-Performance und Instanzierung in der [Roblox Creator Documentation](https://create.roblox.com/).
+**Wo sollte ich nach Updates über Karten suchen?**
+Auf der [offiziellen Roblox-Erlebnisseite](https://www.roblox.com/games/137151641329864/RoFront) und beim Ersteller Torrey Pines. Drittanbieter-Leitfäden sind sekundäre Beobachtungen, keine Entwicklerdokumentation.
 
-| Asset / Parameter | Sicheres Zielbudget | Warnung vor hoher Last | Entscheidende Optimierungsmaßnahme |
-| :--- | :--- | :--- | :--- |
-| **Gesamte Dreiecksanzahl (Tris)** | Unter 400.000 Tris | Über 750.000 Tris | Wiederkehrende Mesh-Objekte in instanzierte Assets umwandeln |
-| **Draw Calls / Einzelne Parts** | 2.500 – 4.000 Parts | 8.000+ Parts | Statische Hintergrundgeometrie zu Solid Unions zusammenfassen |
-| **Dynamische Lichtquellen** | 8 – 15 aktive Lichter | 30+ schattenwerfende Lichter | Schatten bei Umgebungsleuchten deaktivieren; Hauptbeleuchtung baken |
-| **Physik-Kollisions-Meshes** | Default/Precise für Deckung | High-Poly-Meshes auf Precise | Nicht-kampfbezogene Hintergrundobjekte auf „Box“ oder „Null“ setzen |
-| **Partikelemitter** | Unter 20 gleichzeitig | 50+ dichte Partikelemitter | Rauch- und Staubeffekte auf primäre Missionsziel-Bereiche beschränken |
-
-### Occlusion Culling und Sichtlinienblocker
-
-Eine der effektivsten Methoden zur Gewährleistung hoher Performance auf einer großen RoFront Custom Map ist das bewusste Unterbrechen von Sichtachsen (Occlusion Culling). Massive bauliche Barrieren – wie Betonschutzwände, Felsformationen und dichte Gebäudesilhouetten – lenken nicht nur die Infanteriebewegungen: Sie verhindern auch, dass die Engine weit entfernte Geometrie auf dem Bildschirm rendert.
-
-Indem Sie weitläufiges Terrain in unterteilte Gefechtszonen gliedern, sparen Sie Systemspeicher und erhöhen die grundlegende Framerate für alle Spieler auf dem Server.
-
-## Community-Playtests und Iterationsstrategien
-
-Keine Arena ist beim ersten Compile perfekt. Gründliche Playtests decken unerwartete Sichtlinien, unfaire Head-Glitch-Positionen und Balance-Probleme auf, die einzelnen Entwicklern unweigerlich entgehen.
-
-Die Erfahrung zeigt, dass strukturiertes Feedback von eingespielten Squads deutlich bessere Ergebnisse für das Balancing liefert als zufällige öffentliche Free-For-All-Runden.
-
-| Beobachtung / Feedback | Wahrscheinliche Design-Ursache | Empfohlene Level-Anpassung |
-| :--- | :--- | :--- |
-| **Spieler sterben ständig innerhalb von 3 Sekunden nach dem Spawnen** | Direkte Sichtlinie verbindet Kampfzentrum mit Basisumfeld | Versetzten Erdwall oder Dog-Leg-Wand am Hauptausgang einfügen |
-| **Ein Einnahmepunkt wird 80 % häufiger erobert als andere** | Asymmetrische Laufzeiten bevorzugen ein Team | Spawn des bevorzugten Teams um 20–30 Studs nach hinten verlegen |
-| **Matches enden regelmäßig durch Zeitablauf ohne Punktelimit** | Defensive Deckung ist zu stark; Flankenwege zu lang | Zweite Durchbruchsroute öffnen oder Wandhöhen verringern |
-| **Scharfschützen dominieren den gesamten zentralen Platz** | Unzureichende Mikrodeckung und zu offene Mittelroute | Zerstörte Militärfahrzeuge, Kisten und Barrieren platzieren |
-| **Schrotflinten und CQB-Waffen werden überhaupt nicht genutzt** | Kartengeometrie fehlen enge Innenraum-Übergänge | Unterirdisches Bunkersystem oder Flankierungskorridor hinzufügen |
-
-### Telemetrie und taktische Hotspots
-
-Erfassen Sie während Ihrer Alpha-Testwochenenden, wo die meisten Eliminierungen stattfinden. Wenn 70 % aller Abschüsse in einem einzigen Übergangskorridor geschehen, erstickt dieser Korridor den Spielfluss auf dem Rest Ihrer RoFront Custom Map.
-
-Verteilen Sie Missionsziele und wertvolle defensive Schlüsselpositionen über die entgegengesetzten Enden der Arena, um eine Nutzung der gesamten Karte anstelle von zermürbenden Ein-Weg-Gefechten zu fördern.
-
-## Häufig gestellte Fragen zu RoFront Custom Maps
-
-### Wie balanciere ich die Deckungshöhe für standardmäßige Spielerhaltungen aus?
-Deckungen sollten exakt auf die Abmessungen der Spielercharaktere abgestimmt werden. Niedrige Deckung zum Schießen aus der Hocke sollte etwa 3,5 bis 4 Studs hoch sein, damit Spieler in geduckter Haltung sicher hervorschauen können. Stehhohe Barrikaden sollten mindestens 6,5 bis 7 Studs hoch sein, um Operatoren im aufrechten Stand vollständig vor horizontalem Beschuss zu schützen.
-
-### Was ist die ideale Laufzeit vom Spawn bis zur Frontlinie auf einer RoFront Custom Map?
-Für standardmäßige taktische Spielmodi liegt die ideale Laufzeit vom Verlassen des Spawns bis zum ersten Feindkontakt an der Frontlinie zwischen 8 und 14 Sekunden. Laufzeiten unter 6 Sekunden begünstigen chaotisches Spawn-Rushing, während Zeiten über 18 Sekunden zu zähen Leerlaufphasen führen, die das Spieltempo hemmen.
-
-### Können Custom Maps Nachteinsätze effektiv unterstützen?
-Ja, Nachtoperationen erfordern jedoch eine durchdachte Umgebungsbeleuchtung. Vermeiden Sie pechschwarze Dunkelheit, die Spieler dazu zwingt, die Bildschirmhelligkeit auf das Maximum zu stellen. Setzen Sie stattdessen auf stimmungsvolles Mondlicht, flackernde Außenposten-Flutlichter und taktische Notleuchten in der Nähe von Missionszielen, um den Spielerfluss zu leiten und gleichzeitig die packende Atmosphäre nächtlicher Gefechte zu bewahren.
-
-### Wie verhindere ich, dass Spieler die vorgesehenen Kampfgrenzen verlassen?
-Verwenden Sie unsichtbare Kollisionsbarrieren mit glatten vertikalen Flächen entlang von Dächern, Felswänden und Grenzzäunen. Stellen Sie sicher, dass Umgebungsobjekte wie gestapelte Holzkisten oder Laternenmasten nicht durch Sprung-Hock-Kombinationen ausgenutzt werden können, um Levelbegrenzungen zu überwinden. Testen Sie alle Begrenzungsobjekte bereits während der frühen Graybox-Phase eingehend.
+**Bedeutet die Zahl von 88 Nationen 88 Spieler pro Server?**
+Nein. Diese Zahl stammt aus der Spielbeschreibung. Sie ist getrennt von Roblox' Server-Size-Feld und sollte nicht als getestete Kapazität behandelt werden.

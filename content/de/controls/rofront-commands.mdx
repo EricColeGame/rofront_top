@@ -1,133 +1,87 @@
 export const metadata = {
-  title: "RoFront Befehle und Steuerungs-Guide: Meistere jede taktische Eingabe",
-  description: "Meistere alle wichtigen RoFront-Befehle, taktischen Hotkeys, Squad-Anweisungen und Privateserver-Einstellungen mit diesem umfassenden Feldbuch.",
+  title: "RoFront-Befehle: Was die Steuerung in RoFront [World PvP] wirklich ist",
+  description: "Du suchst nach RoFront-Befehlen? Hier erfährst du, was der offizielle Roblox-Eintrag zur Steuerung dokumentiert und wie du die echte Benutzeroberfläche im Spiel überprüfst.",
   category: "controls",
-  date: "2026-10-10",
+  date: "2026-10-14",
 };
 
-Das Überleben auf den brutalen, schlammverkrusteten Schlachtfeldern von RoFront erfordert messerscharfe Reflexe und sofortige taktische Kommunikation. Egal, ob du einen desorganisierten Zug unter Artilleriefeuer sammelst oder einen Angriff auf einen schwer befestigten Bunker koordinierst – das Beherrschen deiner RoFront-Befehle entscheidet darüber, ob du als siegreicher Truppführer hervorgehst oder zur bloßen Verluststatistik wirst. Wenn du diese entscheidenden RoFront-Befehle meisterst, gelangen deine Befehle blitzschnell zu deinem Team, Bewegungsabläufe werden optimiert und dein Squad feuert zielsicher, selbst wenn in den Schützengräben das pure Chaos ausbricht.
+Wenn du nach „RoFront-Befehlen" gesucht hast, hast du wahrscheinlich eine Liste von Chat-Codes, Hotkeys oder Konsolen-Eingaben erwartet. Hier ist der ehrliche Ausgangspunkt: Der offizielle Roblox-Eintrag für RoFront [World PvP] veröffentlicht keine Befehlsliste. Was er veröffentlicht, ist eine Reihe von Gameplay-Systemen — Gebietserweiterung, Angriff auf Nachbarn, Bau von Städten, Häfen und Fabriken, Schmieden von Allianzen und Starten von Atomwaffen — plus eine angegebene Siegbedingung: die Eroberung von 80 % der Welt. Diese Lücke zwischen dem, wonach Spieler suchen, und dem, was dokumentiert ist, lohnt sich zu verstehen, bevor du ein Match damit verbringst, Vermutungen in ein Chat-Feld zu tippen.
 
-In hochintensiven Frontkämpfen kann jede Sekunde, die man mit dem Durchsuchen von Menüs oder der Suche nach Tastaturbelegungen verschwendet, den Rundensieg kosten. Erfahrungsberichte aus der Community betonen regelmäßig, dass koordinierte Einheiten, die auf direkte taktische Ansagen und Anpassungen auf Serverebene setzen, die Ranglisten dominieren. Dieser Guide schlüsselt jede Chat-Anweisung, jeden Squad-Befehl, jede Infanterie-Tastenbelegung und jeden privaten Lobby-Hilfsbefehl auf, damit du deine Leistung auf dem Schlachtfeld perfektionieren kannst.
+## Was die offizielle Beschreibung tatsächlich dokumentiert
 
-## Wichtige Chat- und Hilfsbefehle in RoFront
+Die verifizierte Beschreibung des Erstellers Torrey Pines bezeichnet RoFront als „Echtzeit-Gebietseroberung" basierend auf dem Spiel Open Front, mit Karten-Credits an Open Front. Sie listet diese beworbenen Features auf:
 
-Textkommunikation bleibt eine unverzichtbare Lebensader, wenn Sprachkanäle von Explosionen und Schusswechseln übertönt werden. RoFront verfügt über ein reaktionsschnelles Chat-Befehlssystem, mit dem Spieler Squads organisieren, kritische Statusänderungen melden, Audio-Einstellungen anpassen und direkt über die Texteingabe für neue Kartensektoren abstimmen können.
+- Expansion aus einer einzigen Nation
+- Angriff auf deine Nachbarn
+- Bau von Städten, Häfen und Fabriken
+- Schmieden von Allianzen
+- Starten von Atomwaffen
+- Wettbewerb gegen „88 Spielernationen und Hunderte von Stämmen"
+- Sieg durch Eroberung von 80 % der Welt
 
-Um Befehle einzugeben, drücke `/`, um das Standard-Chatfenster zu öffnen, tippe das entsprechende Präfix samt Befehlswort ein und bestätige mit `Enter`. Diese nützlichen Befehle vereinfachen die Teamorganisation, ohne dass Spieler das Kampfgeschehen unterbrechen und verschachtelte Einstellungsmenüs durchsuchen müssen.
+Das ist das vollständige beworbene Feature-Set. Beachte, was fehlt: keine Erwähnung einer Befehlskonsole, keine Slash-Befehle, keine Keybind-Liste, keine Chat-Syntax. Die Beschreibung sagt dir, was du im Spiel tun kannst, nicht wie du es eingibst.
 
-| Befehlssyntax | Hauptfunktion | Kontext & taktischer Nutzen |
-| :--- | :--- | :--- |
-| `/squad create [name]` | Erstellt ein brandneues Kampfsquad | Fasst Truppmitglieder unter deiner Führungsmarkierung zusammen. |
-| `/squad join [id/name]` | Fragt den Beitritt zu einem bestehenden Fireteam an | Spawnt dich direkt bei zugewiesenen Squad-Mitgliedern. |
-| `/squad leave` | Verlässt dein aktuelles Squad | Setzt dich auf den Status eines unzugewiesenen Infanteristen zurück. |
-| `/squad invite [player]` | Sendet eine direkte Rekrutierungseinladung | Beschleunigt die Zusammenstellung koordinierter Wettkampfteams. |
-| `/respawn` oder `/kill` | Setzt einen feststeckenden oder verbuggten Soldaten zurück | Behebt Physik-Bugs des Charakters, ohne den Server neu betreten zu müssen. |
-| `/team [message]` | Sendet Text nur an deine eigene Fraktion | Hält Angriffspläne vor der gegnerischen Frontlinie geheim. |
-| `/hud toggle` | Schaltet immersive Bildschirmelemente um | Sorgt für eine saubere Anzeige zur besseren taktischen Übersicht oder für Videoaufnahmen. |
-| `/votekick [player]` | Startet eine Teamabstimmung gegen störende Spieler | Setzt Fairplay und taktische Integrität durch. |
-| `/mute [player]` | Blockiert Audio und Text eines ausgewählten Spielers | Bewahrt den taktischen Fokus in überfüllten Lobbys. |
-| `/ping` | Zeigt aktuelle Netzwerklatenz und Tickrate an | Diagnostiziert Trefferregistrierungs- und Desync-Probleme im Handumdrehen. |
+Eine wichtige Klarstellung: Die Zahl „88 Spielernationen" stammt aus dem Beschreibungstext. Sie ist keine verifizierte Serverkapazität. Roblox listet die Servergröße als separates Feld auf der Spielseite, und diese Zahl kann von der Nationenanzahl in der Beschreibung abweichen. Behandle 88 als Design-Aussage über die Welt, nicht als Versprechen darüber, wie viele Spieler sich deinen Server teilen.
 
-Die Nutzung des Standard-Textchats für fraktionsweite Mitteilungen stellt sicher, dass auch Solo-Infanteristen Updates über eingenommene Sektoren erhalten. Allerdings sollten Spieler davon absehen, den Chatkanal während entscheidender Feuergefechte vollzuspammen. Durch präzise RoFront-Befehle bleibt der Chat übersichtlich, sodass dringende Warnmeldungen für die gesamte Fronttruppe lesbar bleiben.
+## Warum „Befehle" hier ein irreführender Suchbegriff ist
 
-## Taktische Squad-Leader-Befehle und Radialmenü-Direktiven
+RoFront ist ein kartenbasiertes Strategiespiel, kein Shooter auf Soldatenebene und keine konsolengesteuerte Sandbox. Der Drittanbieter-Leitfaden von Nisu macht genau diesen Punkt: Ein Tutorial für einen unabhängigen Roblox-Shooter wird dieses Erlebnis nicht erklären, und Suchen nach ähnlichen Namen können zu unabhängigen Spielen oder Videos führen.
 
-Die Rolle des Squad-Leaders verlangt mehr als nur das Tragen einer Seitenwaffe und einer Pfeife; sie erfordert aktive Führung auf dem Schlachtfeld. Wenn du ein Squad anführst, stehen dir einzigartige taktische Direktiven zur Verfügung, die räumliche Markierungen direkt auf das HUD deiner Squad-Kameraden projizieren. 
+In Gebietseroberungsspielen sind deine „Befehle" normalerweise Interface-Aktionen — das Anklicken einer Grenze, um in sie vorzudringen, das Auswählen einer Bauoption, das Bestätigen einer diplomatischen Aktion. Das sind Steuerungen, keine getippten Befehle. Wenn RoFront eine Chat-Befehlsebene hat, ist sie in keiner hier verfügbaren Quelle dokumentiert, und eine zu erfinden wäre unverantwortlich.
 
-Diese Direktiven bieten visuelle Ziele, die Mörserteams, Grabenräumer und Maschinengewehrschützen zu kritischen Brennpunkten leiten. Indem Einsatzleiter die Taste für das Taktikmenü gedrückt halten – standardmäßig je nach Konfiguration die `mittlere Maustaste` oder `G` –, können sie Echtzeit-Markierungen direkt auf Geländepunkte setzen.
+## Wie du die echten Steuerungen in deinem ersten Match findest
 
-| Taktische Direktive | Eingabe im Radialmenü | Visueller Indikator | Taktischer Vorteil im Spiel |
-| :--- | :--- | :--- | :--- |
-| **Attack Objective** | Radial: Oben (Nord) | Rote gekreuzte Gewehre | Konzentriert das Squad-Feuer auf eine feindliche Befestigung. |
-| **Defend Position** | Radial: Rechts (Ost) | Blaues Schild-Symbol | Weist das Fireteam an, sich einzugraben und Kreuzfeuer aufzubauen. |
-| **Move / Rally** | Radial: Unten (Süd) | Grünes Chevron | Setzt einen Sammelpunkt hinter Deckung, um sich neu zu formieren. |
-| **Target Spotting** | Radial: Links (West) / `V` | Gelber Warn-Diamant | Markiert feindliche Scharfschützennester oder anrückende Panzer. |
-| **Request Supplies** | Radial: Mitte-Links | Orangefarbene Munitionskiste | Alarmiert Versorger, Munition und Verbandszeug bereitzustellen. |
-| **Artillery Priority** | Radial: Mitte-Rechts | Lila Fadenkreuz | Markiert eine optimale Einschlagszone für schwere Artillerie. |
+Da keine Befehlsreferenz öffentlich existiert, muss die Überprüfung innerhalb des Erlebnisses stattfinden. Öffne [RoFront [World PvP] auf Roblox](https://www.roblox.com/games/137151641329864/RoFront) und bestätige, dass der Ersteller Torrey Pines ist, bevor du irgendetwas beitrittst.
 
-Erfahrungen aktiver Spieler zeigen, dass Squads, die Radialmenü-Direktiven konsequent umsetzen, strategische Sektoren um bis zu 40 % schneller erobern als unorganisierte Trupps. Achte beim Erteilen eines Befehls darauf, dass dein Fadenkreuz genau auf das gewünschte Gelände oder den Zielbunker gerichtet ist, bevor du das Auswahlrad loslässt. Falsch platzierte Markierungen können dein Squad geradewegs in offene Todeszonen führen und es feindlichem Scharfschützenfeuer ausliefern.
+Der Nisu-Leitfaden schlägt eine praktische Lernroutine vor: Lokalisiere dein Gebiet und seine Grenzen, finde die Weltkontroll-Anzeige und mache dann einen bewussten Zug und beobachte, was sich ändert, bevor du ihn wiederholst. Dieser Ansatz funktioniert gerade deshalb, weil das Steuerungsschema durch Beobachtung erlernt wird und nicht durch das Auswendiglernen einer Liste.
 
-## Kampf-Hotkeys und Aktionsbefehle für das Infanteriespiel
+Wenn du in einem Match bist, achte auf diese Interface-Elemente, die Spieleraufnahmen gezeigt haben:
 
-Präzise Manöver in RoFront erfordern ein nahtloses Zusammenspiel zwischen Tastatureingaben und Charakteranimationen. Im Gegensatz zu Arcade-Militär-Shootern bietet der taktische Kampf in diesem Spiel abgestufte Körperhaltungen, Zweibein-Aufstellmechaniken und physische Baufunktionen.
+| Interface-Bereich | Worauf du achten solltest |
+|---|---|
+| Oben am Bildschirm | Weltkontroll-Zielanzeige |
+| Karte | Farbige Grenzen, die den Gebietsbesitz zeigen |
+| Unteres Panel | Truppen-, Gold- und Angriffssteuerung |
+| Baumenü | Stadt-, Hafen- und Fabrikoptionen mit angezeigten Kosten |
 
-Zu verstehen, wie jede Eingabe funktioniert, verhindert fatale Fehler – etwa das Aufstehen aus einem schützenden Schützengraben beim Versuch, ein Hindernis zu überwinden.
+Der Nisu-Leitfaden verweist auf ein APEX ROBLOX-Match-Video vom 10. Oktober, das das Weltkontroll-Ziel oben, farbige Grenzen auf der Karte und Truppen-, Gold- und Angriffssteuerung darunter zeigt. Das ist eine Drittanbieter-Beobachtung eines Spielerbildschirms, keine Entwicklerdokumentation — aber es ist eine vernünftige Ausgangskarte, wo du suchen solltest.
 
-| Aktionsbefehl | Standard-Taste | Alternative Option | Taktischer Nutzen |
-| :--- | :--- | :--- | :--- |
-| **Primärfeuer / Aktion** | `Linke Maustaste` | N/A | Feuert Waffe ab, schwingt die Schaufel oder wendet Verbandszeug an. |
-| **Zielen über Visier (ADS)** | `Rechte Maustaste` | ADS umschalten | Stabilisiert das Visierbild und verringert die Schussstreuung. |
-| **Haltungswechsel (Runter)** | `C` | `Strg` | Senkt den Soldaten in die Hocke oder Bauchlage. |
-| **Haltungswechsel (Rauf)** | `Leertaste` | N/A | Richtet die Haltung auf; klettert über niedrige Sandsackwälle. |
-| **Waffe auflegen / Zweibein** | `B` | `F` | Arretiert Automatikgewehre auf Sandsäcken zur Rückstoßeliminierung. |
-| **Nach links / rechts lehnen** | `Q` / `E` | Kontextuelles Neigen | Winkelt Schusslinien an Grabenecken ab, ohne den Oberkörper zu exponieren. |
-| **Taktischer Sprint** | `Linke Umschalttaste` | Doppel-Tippen auf `W` | Überquert tödliches Niemandsland zügig bei hohem Ausdauerverbrauch. |
-| **Interagieren / Wiederbeleben** | `F` | `E` | Belebt gefallene Kameraden wieder oder nimmt schwere Waffen auf. |
-| **Schanzwerkzeug ausrüsten** | `4` | Ziffernreihe | Rüstet den Feldspaten aus, um schützende Erdwälle aufzuschütten. |
-| **Schnelle Waffenkontrolle** | `H` | `J` | Prüft die geladene Patrone und das Restgewicht des Magazins. |
+## Die Benutzeroberfläche lesen statt nach Codes zu suchen
 
-Das Halten defensiver Stellungen erfordert oft, leichte und schwere Maschinengewehre auf Grabenkanten aufzulegen. Sobald du dich einer Brüstung näherst, verankert ein Druck auf `B` dein Zweibein auf Holz oder Sandsäcken, was den vertikalen Rückstoß drastisch verringert. Bedenke jedoch, dass das Auflegen deinen horizontalen Zielwinkel einschränkt. Es ist daher überlebenswichtig, sich schnell zu lösen, falls feindliche Granaten in der Nähe einschlagen.
+Wenn du aus Spielen kommst, in denen Befehle Vorteile freischalten, passe deine Erwartungen an. Die beworbenen Systeme in RoFront sind strategisch, nicht eingabebasiert:
 
-## RoFront-Befehle für Custom-Matches und private Server
+- **Expansion** geschieht durch Grenzinteraktion, und der Nisu-Leitfaden rät, deine Grenzen und die Weltkontroll-Anzeige zu beobachten, bevor du dich zu einem Angriff verpflichtest.
+- **Gebäude** — Städte, Häfen und Fabriken — werden als separate Optionen zum Erlernen präsentiert. Der offizielle Eintrag bietet keine Wirtschaftstabelle oder universelle günstigste Bau-Reihenfolge, daher ist jede „bester erster Bau"-Behauptung, die du anderswo siehst, unverifiziert.
+- **Allianzen** beinhalten andere Nationen. Der Nisu-Leitfaden empfiehlt, die relevanten In-Game-Steuerungen zu lesen, bevor du handelst, besonders wenn eine Aktion Beziehungen verändert.
+- **Atomwaffen** werden beworben, aber Voraussetzungen und Konsequenzen sind nicht öffentlich dokumentiert. Ein dramatischer Schlag in einem Video belegt nicht, dass das Hinarbeiten auf Atomwaffen ein guter Einstieg ist.
 
-Private Matches und Clan-Scrims erfordern eine strikte administrative Kontrolle. Server-Hosts und Clan-Administratoren nutzen spezielle Host-RoFront-Befehle, um Rundentimer zu verwalten, experimentelle Waffen einzuschränken, Gefechtskarten festzulegen und Wettkampfregeln durchzusetzen.
+Strategische Ratschläge hier sind aus der Gebietseroberungs-Prämisse abgeleitet, nicht aus Spieldaten gemessen. Die Logik ist einfach: In einem Spiel, in dem du bei 80 % Weltkontrolle gewinnst, sollte jede Aktion diese Anzeige bewegen oder deine Fähigkeit schützen, sie später zu bewegen.
 
-Diese Admin-Werkzeuge funktionieren über die Chat-Konsole oder das Host-Administrations-Dashboard (`F2` oder `/admin`). Nur Nutzer mit verifizierten Host-Rechten, zugewiesenen Moderationsberechtigungen oder Eigentümer privater Server können diese Verwaltungsbefehle ausführen.
+## Verifikationsschritte, wenn die Dokumentation endet
 
-| Host-Befehl | Syntax-Beispiel | Erwartetes Ergebnis |
-| :--- | :--- | :--- |
-| **Karte wechseln** | `/map [map_id]` | Rotiert die Lobby sofort auf das angegebene Schlachtfeld. |
-| **Zeitlimit festlegen** | `/timelimit [minutes]` | Passt die Matchdauer an standardisierte Scrim-Parameter an. |
-| **Ticket-Modifikator** | `/tickets [amount]` | Legt den Fraktions-Respawn-Pool für ausgedehnte Abnutzungsschlachten fest. |
-| **Team-Plätze sperren** | `/lockteams [true/false]` | Verhindert unkoordiniertes Teamwechseln in Ranglistenspielen. |
-| **Spawn-Beschränkung** | `/weaponban [class_id]` | Untersagt bestimmte Waffenklassen (z. B. Zielfernrohrgewehre). |
-| **Spieler kicken** | `/kick [player_name]` | Entfernt unberechtigte oder störende Teilnehmer vom Server. |
-| **Spieler bannen** | `/ban [player_name]` | Sperrt Wiederholungstäter dauerhaft vom Beitritt aus. |
-| **Runde neustarten** | `/restartround` | Setzt Ticketzähler, Befestigungen und Kontrollpunkte zurück. |
-| **Zuschauer umschalten** | `/spectate [true/false]` | Ermöglicht es Turnier-Castern, frei durch Kampfzonen zu fliegen. |
+Da keine Befehlsliste, Hotkey-Referenz oder ein Code-System veröffentlicht ist, ist der zuverlässige Weg die direkte Inspektion:
 
-Bei der Organisation von Wettkampf-Scrims müssen Hosts die offiziellen [Roblox-Community-Standards](https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Standards) beachten, um sicherzustellen, dass Richtlinien auf privaten Servern und Spielermoderation den plattformweiten Sicherheitsvorgaben entsprechen. Ein faires Miteinander durch transparente Host-Befehle garantiert ausgewogene Matches und lässt Turnierszenen aufblühen.
+1. Öffne die offizielle Spielseite und bestätige, dass der Ersteller Torrey Pines ist.
+2. Tritt einem Match bei und identifiziere deine Nation, ihre Grenzen und die Weltkontroll-Anzeige.
+3. Fahre über jede sichtbare Steuerung oder wähle sie aus und lies alle angezeigten Tooltips oder Kosteninformationen.
+4. Teste eine Aktion nach der anderen und beobachte das Ergebnis, bevor du sie wiederholst.
+5. Wenn du etwas siehst, das wie eine Befehlseingabe aussieht, verifiziere es im Spiel, statt einer Drittanbieter-Liste zu vertrauen.
 
-## Optimierung deines Eingabe-Workflows und Tastenbelegungs-Managements
+Vertraue keiner Seite, die RoFront-Codes, Einlösecodes oder Chat-Befehle als Tatsache darstellt. Nichts davon erscheint in der offiziellen Beschreibung, und die hier verfügbaren Quellen dokumentieren es nicht.
 
-Die Standard-Tastenbelegung bietet eine solide Basis, aber taktisches Gameplay auf hohem Niveau profitiert oft von einer maßgeschneiderten Eingabeoptimierung. Bei hektischen Grabenkämpfen kann das Bewegen der Finger weg von den primären Bewegungstasten (`W`, `A`, `S`, `D`) zu entfernten Tasten wertvolle Reaktionszeit kosten.
+## FAQ
 
-Wenn du deine Tastenbelegungen anpasst, um Neigen, Waffenauflegen und taktisches Pingen zu priorisieren, ohne deine Beweglichkeit einzuschränken, verschaffst du dir einen spürbaren Wettbewerbsvorteil.
+**Hat RoFront Chat-Befehle oder Codes?**
+Nicht laut einer dokumentierten Quelle. Die offizielle Beschreibung listet Gameplay-Features auf, nicht Eingabe-Syntax. Verifiziere alles, was anderswo behauptet wird, direkt im Erlebnis.
 
-```
-+-------------------------------------------------------------+
-|            OPTIMIERTES TAKTISCHES STEUERUNGSSCHEMA          |
-|                                                             |
-|   [Q] Nach links lehnen         [E] Nach rechts lehnen      |
-|        \                             /                      |
-|         [A] Nach links --- [D] Nach rechts                  |
-|                        |                                    |
-|   [Maustaste 4] Zweibein        [Maustaste 5] Schnell-Ping  |
-+-------------------------------------------------------------+
-```
+**Wo werden die Steuerungen erklärt?**
+Sie werden nicht in Textform veröffentlicht. Der Drittanbieter-Leitfaden von Nisu empfiehlt, durch Beobachten der Benutzeroberfläche und einen bewussten Zug nach dem anderen zu lernen.
 
-Rückmeldungen aus der Community zeigen, dass das Belegen der Neigefunktionen auf die Daumentasten der Maus (`Maustaste 4` und `Maustaste 5`) oder das Vertauschen von `Q` und `E` Spielern ermöglicht, um Bunkerecken zu spähen und gleichzeitig in diese Richtung zu laufen. Diese als „Inverted Leaning“ bekannte Technik verhindert Fingerverrenkungen und hält dein Fadenkreuz bei dynamischen Säuberungsaktionen stabil im Ziel.
+**Wie gewinnt man RoFront?**
+Die offizielle Beschreibung sagt, man soll 80 % der Welt erobern. Verfolge die Weltkontroll-Anzeige, statt anzunehmen, dass ein großes Gebiet das Match besiegelt hat.
 
-| Neu zu belegende Aktion | Standard-Taste | Empfohlene Belegung | Mechanischer Vorteil |
-| :--- | :--- | :--- | :--- |
-| **Waffe auflegen / Zweibein** | `B` | `Maustaste 4` | Sofortiges Auflegen, ohne die Hand von den Bewegungstasten zu nehmen. |
-| **Gegner sichten / Ping** | `V` | `Maustaste 5` | Markiert Ziele bei uneingeschränkter seitlicher Bewegungsfähigkeit. |
-| **Ducken / Rutschen** | `C` | `Linke Strg` (Halten) | Verbessert die mechanische Geschmeidigkeit beim Rutschen in Deckung. |
-| **Bauchlage (Prone)** | `Strg` | `Z` | Verhindert versehentliches Hinlegen bei panischem Nahkampffeuer. |
-| **Nahkampfangriff** | `V` | `Mittlere Maustaste` | Ermöglicht blitzschnelle Bajonettangriffe in engen Schützengräben. |
+**Unterstützt RoFront 88 Spieler in einem Server?**
+Die Beschreibung erwähnt 88 Spielernationen. Das separate Servergrößen-Feld von Roblox ist die Zahl, die du auf der Spielseite prüfen solltest, und die beiden Zahlen sollten nicht als dasselbe behandelt werden.
 
-Teste neue Tastaturbelegungen immer zuerst in einer ruhigen privaten Lobby, bevor du dich in hochkarätige Squad-Matches stürzt. Die Vertrautheit mit deinem Layout stellt sicher, dass das Ausführen entscheidender RoFront-Befehle und physischer Kampfeingaben in Fleisch und Blut übergeht, wenn an der Frontlinie ein chaotischer Nahkampf entbrennt.
-
-## Häufig gestellte Fragen (FAQ) zu RoFront-Befehlen
-
-### Wie öffne ich die Befehlskonsole in RoFront?
-Um die standardmäßige Befehlseingabe zu öffnen, drücke während eines laufenden Matches die Taste `/` auf deiner Tastatur. Für Administrations- und Privatlizenz-Host-Tools rufen Serverbesitzer das erweiterte Menü üblicherweise durch Drücken von `F2` oder durch Eingabe von `/admin` im normalen Chatfenster auf.
-
-### Warum werden meine RoFront-Befehle im Chat nicht erkannt?
-Falls deine RoFront-Befehle nicht ausgeführt werden, prüfe zuerst, ob du den Schrägstrich (`/`) als Präfix ohne vorangehende Leerzeichen eingegeben hast. Darüber hinaus scheitern administrative Befehle kommentarlos oder zeigen eine Fehlermeldung an, wenn dir auf dieser spezifischen Serverinstanz die erforderlichen Moderatorrechte fehlen.
-
-### Kann ich Befehle des taktischen Squad-Radialmenüs auf andere Tasten legen?
-Ja. Du kannst das Radialmenü und die Squad-Befehle im Einstellungsmenü des Spiels unter dem Reiter „Controls“ neu belegen. Viele Spieler weisen das taktische Befehlsrad einer dedizierten Daumentaste der Maus zu, um in intensiven Feuergefechten schneller darauf zugreifen zu können.
-
-### Werden private RoFront-Serverbefehle bei Serverneustarts gespeichert?
-Die meisten administrativen Befehle auf privaten Servern werden zurückgesetzt, sobald die Instanz geschlossen wird – es sei denn, sie sind in einem speziellen Host-Konfigurationsskript hinterlegt. Wenn du ein organisiertes Turnier oder einen Clan-War austrägst, solltest du deine Parameterbefehle vorab vorbereiten, um sie nach dem Start der Lobby zügig eingeben zu können.
+**Ist RoFront ein Shooter?**
+Nein. Es ist Echtzeit-Gebietseroberung mit Nationen, Grenzen, Gebäuden, Allianzen und Atomwaffen. Shooter-Tutorials werden dir dieses Spiel nicht beibringen.

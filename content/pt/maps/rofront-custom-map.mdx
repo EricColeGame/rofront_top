@@ -1,133 +1,81 @@
 export const metadata = {
-  title: "Guia de Criação de Mapas Personalizados no RoFront: Melhores Layouts e Dicas de Level Design",
-  description: "Domine o design de mapas personalizados no RoFront com nosso guia completo sobre layouts táticos, pontos de estrangulamento, balanceamento de spawn e otimização de assets.",
+  title: "Mapa Personalizado do RoFront: O Que Existe e Como Verificar",
+  description: "Procurando um mapa personalizado do RoFront? Veja o que a listagem oficial do Roblox documenta, o que não documenta e como verificar as opções de mapa por conta própria.",
   category: "maps",
-  date: "2026-10-10",
+  date: "2026-10-14",
 };
 
-Ambientes personalizados são a alma dos jogos de tiro táticos, remodelando a forma como os esquadrões manobram, realizam invasões e mantêm posições. Criar um mapa personalizado de sucesso no RoFront exige uma compreensão apurada de ritmo espacial, gerenciamento de linhas de visão e equilíbrio estrutural. Quando projetado com precisão, um mapa personalizado no RoFront transforma tiroteios comuns em confrontos táticos inesquecíveis e de alta tensão, fazendo com que os jogadores voltem rodada após rodada.
+Se você pesquisou por um **mapa personalizado do RoFront**, provavelmente quer saber uma de duas coisas: se é possível jogar em um mapa diferente do mundo padrão, ou se você pode criar e compartilhar um. A resposta honesta, com base nas fontes disponíveis, é que nenhuma das duas coisas está documentada. Isso não significa que a pergunta seja irrespondível — significa que a resposta precisa vir do próprio jogo, e não de um guia que faz suposições.
 
-Quer você deseje construir redes de trincheiras para combate a curta distância ou amplas arenas de armas combinadas, dominar os fundamentos da geometria de níveis é essencial. Este guia completo apresenta os princípios centrais de design, padrões de fluxo espacial, técnicas de otimização e fluxos de iteração necessários para publicar um campo de batalha de elite.
+Aqui está o que a listagem oficial realmente diz, o que um guia de terceiros acrescenta e como verificar a situação do mapa em uma sessão ao vivo.
 
-## Princípios Centrais de Design para um Mapa Personalizado Equilibrado no RoFront
+## O Que a Listagem Oficial Documenta Sobre o Mapa
 
-Toda arena militar memorável alcança o sucesso porque respeita a relação entre a velocidade de movimento do jogador, o alcance efetivo das armas e o tempo de reação. Projetar um campo de batalha tático exige um planejamento deliberado em torno da densidade de coberturas, hierarquia vertical e rotas de rotação. Sem um controle espacial rigoroso, as partidas rapidamente se transformam em frustrações por spawn-camping ou impasses dominados por snipers.
+RoFront [World PvP] é uma experiência de estratégia do Roblox criada por Torrey Pines, publicada em [place 137151641329864](https://www.roblox.com/games/137151641329864/RoFront). A descrição verificada afirma que é "Baseado no jogo Open Front" e descreve "Conquista de território em tempo real". Também traz uma linha de crédito direta: "Créditos do Mapa para Open Front".
 
-Os criadores de níveis devem equilibrar três espaços principais de combate: setores primários de confronto, corredores de transição e âncoras defensivas. Ao construir um mapa personalizado no RoFront, o ritmo dita com que agressividade os jogadores podem avançar sem serem punidos por ângulos de tiro desprotegidos.
+Esse crédito é o fato mais importante para esta palavra-chave. O mapa no RoFront é atribuído a outro projeto, não apresentado como um recurso editável pelo jogador ou selecionável pelo jogador. A descrição lista o que você pode fazer em uma partida — expandir a partir de uma única nação, atacar vizinhos, construir cidades, portos e fábricas, forjar alianças, lançar armas nucleares — e nenhum desses itens é um editor de mapa, um navegador de mapas ou um slot de mapa personalizado.
 
-```
-[Base Alfa] ---> [Rota de Transição] ---> [Ponto Forte Disputado] <--- [Rota de Transição] <--- [Base Bravo]
-```
+A condição de vitória anunciada é conquistar 80% do mundo. Essa formulação pressupõe um mundo compartilhado por partida, o que é consistente com um mapa fixo, em vez de um rotativo ou fornecido pelo usuário.
 
-Uma estrutura de combate saudável garante que fuzis, submetralhadoras e plataformas de atiradores de longo alcance tenham zonas dedicadas onde seus pontos fortes operacionais se destaquem.
+## Recursos Anunciados vs. Personalização de Mapa
 
-| Zona de Combate | Distância Típica de Confronto | Densidade Primária de Cobertura | Armamento Recomendado | Prioridade de Design |
-| :--- | :--- | :--- | :--- | :--- |
-| **Zona A: Núcleo do Ponto Forte** | 5 – 15 metros | Alta (Sacos de areia, paredes internas, caixotes) | SMGs, Espingardas, Carabinas | Limpeza rápida de salas, invasões por múltiplos ângulos |
-| **Zona B: Pátios Táticos** | 15 – 45 metros | Moderada (Barricadas, veículos destruídos) | Fuzis de Assalto, Fuzis de Batalha | Oportunidades de flanco, armadilhas de fogo cruzado |
-| **Zona C: Mirantes Periféricos** | 45 – 90+ metros | Baixa (Bermas elevadas, frestas de janelas) | Fuzis de Atirador e Snipers | Linhas de visão controladas, exposição recíproca |
-| **Zona D: Trincheiras de Flanco** | 10 – 25 metros | Alta (Terra rebaixada, contenções) | Espingardas, Carabinas CQB | Rotação furtiva, desvio de objetivo |
+Ajuda separar três categorias com clareza, porque os resultados de busca tendem a confundi-las.
 
-### Regulação de Linhas de Visão e a "Regra dos Três" Ângulos
+| Categoria | Status nas fontes |
+| --- | --- |
+| Recursos de jogabilidade anunciados | Expansão territorial, ataque a vizinhos, cidades, portos, fábricas, alianças, armas nucleares, meta de conquista de 80% |
+| Atribuição do mapa | Creditado ao Open Front na descrição oficial |
+| Criação ou seleção de mapa personalizado | Não documentado em nenhuma fonte analisada |
 
-Uma armadilha comum entre criadores iniciantes é construir corredores longos e contínuos que permitem a um único jogador travar um setor inteiro. Os ambientes táticos prosperam na "Regra dos Três Ângulos": um jogador posicionado em um ponto fortificado deve, idealmente, monitorar apenas dois vetores de ameaça distintos simultaneamente, com uma vulnerabilidade máxima a três.
+A linha do meio importa. Um crédito de mapa é um reconhecimento de origem. Não é uma afirmação de que o mapa é modificável, e não é uma afirmação de que mapas alternativos existem. Interpretá-lo como qualquer uma das duas coisas seria uma inferência, não um fato.
 
-Se um operador em um objetivo estiver exposto a quatro ou mais ângulos elevados independentes, a posição parecerá injusta em vez de tática. Quebre os espaços abertos usando microterrenos, contêineres de transporte, alvenaria em ruínas e cantos chanfrados que forcem os jogadores a tomar decisões posicionais decisivas.
+## Por Que as Buscas por "Mapa Personalizado" Costumam Falhar
 
-## Layouts Arquitetônicos e Fluxo no Desenvolvimento de Mapas Personalizados no RoFront
+O Roblox tem um grande ecossistema de jogos com editores de mapa, e os jogadores razoavelmente levam essa expectativa para novos títulos. RoFront é um jogo de conquista territorial, não um construtor sandbox. Seu loop, conforme descrito, gira em torno de fronteiras, vizinhos e um medidor de controle mundial — não de posicionar terreno.
 
-A estrutura básica da sua arena dita o ritmo da partida, o tempo de reforço e a segurança dos objetivos. Escolher a topologia de layout correta depende dos modos de jogo pretendidos e da contagem de jogadores no servidor.
+Há também uma armadilha de nomenclatura. O [guia da Nisu](https://nisu.io/guides/rofront-roblox-guide/), de terceiros, alerta explicitamente que "Buscas por nomes semelhantes podem levar a jogos ou vídeos não relacionados", e observa que um tutorial para o shooter Frontlines do Roblox não explicará esta experiência. Se você chegou a uma página sobre mapas personalizados de um jogo diferente com nome parecido, provavelmente foi isso que aconteceu.
 
-Relatos da comunidade indicam que designs simétricos oferecem a base mais equilibrada para confrontos competitivos, enquanto layouts assimétricos proporcionam uma imersão narrativa e tática mais rica para operações de ataque e defesa.
+## Como Verificar as Opções de Mapa Por Conta Própria
 
-| Arquétipo de Layout | Nível de Simetria | Ritmo Estrutural | Melhor Adequação de Modo | Principal Desafio |
-| :--- | :--- | :--- | :--- | :--- |
-| **Clássico de Três Rotas** | Simétrico | Rotações rápidas e previsíveis | Mata-Mata em Equipe, Dominação | Evitar impasses repetitivos na rota central |
-| **Figura em Oito (Cruzamento)** | Semi-simétrico | Dinâmico, frequentes encontros de flanco | Ponto Duro, Rei do Pedaço | Controlar interseções centrais caóticas |
-| **Fortaleza Assimétrica** | Assimétrico | Avanços metódicos e de alta tensão | Localizar e Destruir, Ataque/Defesa | Equilibrar vantagens de altura defensiva |
-| **Anel Concêntrico** | Radial Simétrico | Rotação contínua, alto nível de flanqueamento | Todos contra Todos, Rei Multi-Equipes | Prevenir colapsos descontrolados de spawn na retaguarda |
-| **Trincheira Setorial Linear** | Direcional | Avanço de linha de frente, disputa gradual | Push, Operações de Linha de Frente | Gerenciar o cansaço do deslocamento a partir do spawn |
+Como nenhuma fonte documenta mapas personalizados, o caminho confiável é a inspeção direta. Estas etapas usam apenas a experiência e o criador oficiais.
 
-### Implementando Pontos de Estrangulamento Dinâmicos
+1. Abra a [página oficial do RoFront](https://www.roblox.com/games/137151641329864/RoFront) e confirme que o criador aparece como Torrey Pines antes de entrar em qualquer coisa.
+2. Entre em uma partida e observe a interface de pré-partida ou lobby em busca de qualquer controle de seleção de mapa, votação de mapa ou lista de mapas.
+3. Durante o jogo, verifique se algum menu oferece um editor de mapa, opção de importação ou compartilhamento.
+4. Se você não encontrar nada, trate os mapas personalizados como não documentados, em vez de confirmadamente ausentes — recursos podem existir sem serem escritos.
 
-Os pontos de estrangulamento (choke points) afunilam os esquadrões adversários uns contra os outros para criar clímax naturais durante o combate. No entanto, um ponto de estrangulamento rígido — como uma única porta blindada estreita — gera um jogo estagnado focado em lançamento excessivo de granadas.
+A etapa quatro é deliberada. "Não documentado" e "não existe" são afirmações diferentes, e apenas a primeira é sustentada aqui.
 
-Para criar uma jogabilidade fluida em um mapa personalizado do RoFront, sempre forneça desvios suaves. Um desvio suave pode ser uma janela transponível, uma passagem de ventilação rastejável ou uma trincheira lateral que exija mais tempo de travessia, mas recompense flanqueadores inteligentes com vantagem posicional sobre defensores entrincheirados.
+## Leitura Estratégica de uma Premissa de Mapa Fixo
 
-## Passo a Passo Prático: Construindo seu Mapa Personalizado no RoFront
+O seguinte é um conselho inferido de uma premissa de conquista territorial, não de mecânicas medidas. Se o mundo é o mesmo a cada partida, então o conhecimento do mapa se torna um ativo repetível.
 
-Construir um ambiente tático exige um fluxo de trabalho disciplinado fase a fase. Mergulhar diretamente em texturas detalhadas e detritos ambientais antes de validar a escala da jogabilidade quase sempre resulta em esforço desperdiçado.
+- **Aprenda sua região inicial.** O guia da Nisu sugere localizar seu território, suas fronteiras e nações vizinhas antes de se comprometer com qualquer coisa. Em um mapa fixo, esse conhecimento se mantém para a próxima partida.
+- **Observe pontos de estrangulamento e litorais.** Portos são uma opção de construção anunciada, o que implica que a água importa. Observar onde os litorais ficam em relação às suas fronteiras é um hábito razoável, embora as fontes não descrevam como os portos funcionam.
+- **Acompanhe o display de controle mundial.** O guia da Nisu recomenda observar o medidor de controle mundial em vez de julgar o progresso pelo tamanho da sua área colorida no zoom atual.
+- **Faça um movimento deliberado e depois observe.** Essa rotina de aprendizado vem do mesmo guia de terceiros e é uma maneira sensata de construir familiaridade com o mapa sem depender de ordens de construção não verificadas.
 
-```
-Fase 1: Grayboxing  ==>  Fase 2: Testes de Escala  ==>  Fase 3: Lógica e Spawns  ==>  Fase 4: Polimento Visual
-```
+Nada disso promete uma vitória. A meta publicada é 80% de controle mundial, e um único ataque bem-sucedido não chega lá.
 
-Seguir um pipeline iterativo garante que suas mecânicas estruturais sejam testadas em batalha antes de você investir horas em iluminação e assets decorativos.
+## O Que Permanece Não Documentado
 
-| Número da Fase | Meta do Marco | Atividades Principais | Métrica Chave de Validação |
-| :--- | :--- | :--- | :--- |
-| **Fase 1: Blockout** | Estabelecer a geometria fundamental | Construir formas primitivas para edifícios, colinas e coberturas | Navegação básica natural; nenhuma área com travamentos |
-| **Fase 2: Verificação de Escala** | Testar métricas de locomoção | Verificar alturas de salto, larguras de portas e alturas de cobertura | Coberturas adequadas às alturas agachadas/em pé do personagem |
-| **Fase 3: Objetivos e Spawns** | Implementar regras do jogo | Posicionar bases de spawn, bandeiras, caixas de munição e limites seguros | Tempos de deslocamento do spawn à zona de disputa: 8–14s |
-| **Fase 4: Ambientação Visual** | Aplicar materiais e modelos | Substituir blocos cinzas por barreiras militares, paredes e terrenos | Clareza visual mantida; alta legibilidade de silhuetas |
-| **Fase 5: Áudio e Iluminação** | Ajuste atmosférico | Configurar iluminação estática, sombras e atenuadores de som | A escuridão não oculta alvos além de limites justos |
+Para ser direto sobre as lacunas: não há ferramenta de mapa personalizado documentada, nem lista de mapas, nem códigos de mapa, nem repositório comunitário de mapas, nem declaração do criador sobre edição de mapa nas fontes analisadas. Também não há servidor do Discord documentado, log de atualizações ou notas de patch vinculadas a mapas.
 
-### Proteção de Spawn e Segurança de Linha de Visão
+Um número merece cuidado. A descrição menciona "88 nações jogadoras e centenas de tribos". Essa é uma afirmação descritiva sobre o mundo do jogo. Não é um número de capacidade do servidor, e não deve ser lido como tal. O guia da Nisu observa que o campo separado Server Size do Roblox mostrava 30 quando verificado, e que a listagem não explica como as duas contagens se relacionam.
 
-Os pontos de renascimento (spawns) são o elemento mais vulnerável de qualquer arena tática. Se um inimigo puder avistar o pátio de spawn de uma equipe a partir do outro lado do mapa, a integridade da partida entra em colapso.
+## FAQ
 
-Ao planejar as zonas de base para um mapa personalizado do RoFront, sempre aplique a abordagem de entrada em curva (formato "Dog-Leg"). Os jogadores que saem devem contornar pelo menos uma curva protegida por paredes estruturais altas antes de entrar em qualquer linha de tiro ativa. Além disso, incorpore múltiplos vetores de saída distintos para que os jogadores em defesa não fiquem encurralados em uma única porta.
+**O RoFront tem um recurso de mapa personalizado?**
+Nenhuma fonte documenta um. A descrição oficial credita o mapa ao Open Front e não lista nenhum editor de mapa ou seleção de mapa.
 
-## Otimização de Desempenho e Gerenciamento de Assets
+**Posso criar meu próprio mapa no RoFront?**
+Não de acordo com qualquer fonte disponível. Verifique no jogo checando os menus em busca de opções de editor ou importação.
 
-A jogabilidade tática depende de altas taxas de quadros, registro preciso de acertos e controles responsivos. Um mapa sobrecarregado e saturado com contagens de polígonos não otimizadas ou luzes dinâmicas em excesso causa travamentos na taxa de quadros que arruínam os tiroteios.
+**O mapa do RoFront é o mesmo do Open Front?**
+A descrição credita o Open Front pelo mapa. Não afirma se a versão do RoFront é idêntica, modificada ou redimensionada.
 
-Para obter uma renderização limpa em diversas configurações de hardware, os desenvolvedores devem seguir as diretrizes dos motores modernos, como as recomendações de desempenho e instanciação de assets encontradas na [Documentação do Roblox Creator](https://create.roblox.com/).
+**Onde devo verificar atualizações sobre mapas?**
+A [página oficial da experiência no Roblox](https://www.roblox.com/games/137151641329864/RoFront) e o criador, Torrey Pines. Guias de terceiros são observações secundárias, não documentação do desenvolvedor.
 
-| Asset / Parâmetro | Orçamento Seguro Sugerido | Aviso de Carga Pesada | Ação Crítica de Otimização |
-| :--- | :--- | :--- | :--- |
-| **Contagem Total de Triângulos** | Abaixo de 400.000 tris | Acima de 750.000 tris | Converter adereços de malha repetitivos em assets instanciados |
-| **Draw Calls / Partes Únicas** | 2.500 – 4.000 partes | 8.000+ partes | Agrupar geometria estática de fundo em uniões sólidas |
-| **Fontes de Luz Dinâmica** | 8 – 15 luzes ativas | 30+ luzes projetando sombras | Desativar sombras em lâmpadas ambientes; fixar (bake) iluminação principal |
-| **Malhas de Colisão de Física** | Padrão/Precisa para coberturas | Malhas de alta contagem em 'Precise' | Definir adereços secundários fora de combate como 'Box' ou 'Null' |
-| **Emissores de Partículas** | Abaixo de 20 simultâneos | 50+ emissores densos | Restringir fumaça e poeira aos pontos centrais de objetivos |
-
-### Occlusion Culling e Bloqueadores de Linha de Visão
-
-Uma das maneiras mais eficazes de manter um alto desempenho em um grande mapa personalizado do RoFront é o bloqueio intencional de linhas de visão (occlusion culling). Barreiras estruturais maciças — como muros de contenção de concreto, formações rochosas e silhuetas densas de edifícios — fazem mais do que direcionar a infantaria: elas impedem que o motor renderize a geometria distante fora do campo de visão.
-
-Ao segmentar terrenos abertos em bolsões de combate compartimentados, você economiza memória do sistema e aumenta as taxas de quadros de base para todos os jogadores no servidor.
-
-## Playtests com a Comunidade e Estratégias de Iteração
-
-Nenhuma arena está concluída em sua versão inicial. Testes aprofundados revelam linhas de tiro inesperadas, posições injustas com visibilidade apenas da cabeça (head-glitch) e falhas de equilíbrio que criadores individuais inevitavelmente deixam passar.
-
-A experiência dos jogadores demonstra que reunir feedback estruturado de esquadrões coordenados produz resultados de balanceamento muito superiores aos obtidos em partidas públicas aleatórias.
-
-| Observação / Feedback | Causa Raiz Provável no Design | Ajuste de Nível Recomendado |
-| :--- | :--- | :--- |
-| **Jogadores morrem constantemente dentro de 3 segundos após nascer** | Linha de visão direta conecta o centro de combate ao perímetro da base | Adicionar uma berma recuada ou muro em curva próximo à saída principal |
-| **Um ponto de captura é tomado 80% mais do que os outros** | Tempos de aproximação assimétricos favorecem uma equipe | Recuar o spawn da equipe favorecida em 20–30 studs |
-| **Partidas terminam rotineiramente por tempo sem atingir limite de pontos** | Cobertura defensiva excessivamente forte; flancos muito longos | Abrir uma rota secundária de invasão ou reduzir alturas de paredes |
-| **Snipers dominam toda a praça central** | Falta de microcobertura e abertura excessiva na rota intermediária | Posicionar veículos militares destruídos, caixotes e barreiras |
-| **Espingardas e armas de CQB não são utilizadas** | A geometria do mapa carece de transições internas estreitas | Adicionar um sistema subterrâneo de bunkers ou corredor de flanqueamento |
-
-### Telemetria e Pontos Críticos Táticos
-
-Durante os fins de semana de testes alfa, registre onde ocorrem as maiores concentrações de eliminações de jogadores. Se 70% das baixas acontecerem em um único corredor de transição, esse corredor está sufocando o restante do seu mapa personalizado no RoFront.
-
-Distribua os objetivos e as posições de poder defensivo de alto valor em extremidades opostas da arena para incentivar o uso do mapa como um todo, em vez de transformá-lo em um moedor de carne focado em uma única rota.
-
-## Perguntas Frequentes Sobre Mapas Personalizados no RoFront
-
-### Como equilibro a altura da cobertura para as posturas padrão dos jogadores?
-A cobertura deve ser modelada precisamente com base nas dimensões do modelo do personagem. A cobertura baixa projetada para disparar agachado deve medir aproximadamente entre 3,5 e 4 studs de altura, permitindo que os jogadores espiem com segurança enquanto estiverem agachados. As barricadas para postura em pé devem medir pelo menos 6,5 a 7 studs de altura para proteger totalmente os operadores do fogo horizontal enquanto estiverem eretos.
-
-### Qual é o tempo ideal de deslocamento do spawn até a linha de frente em um mapa personalizado do RoFront?
-Para modos de jogo táticos padrão, o tempo de trânsito ideal entre a saída do spawn e o primeiro confronto na linha de frente fica entre 8 e 14 segundos. Tempos de travessia inferiores a 6 segundos podem incentivar ataques caóticos de invasão de spawn, enquanto tempos superiores a 18 segundos criam intervalos entediantes que drenam o ritmo da partida.
-
-### Mapas personalizados podem suportar operações noturnas de forma eficaz?
-Sim, mas as operações noturnas exigem uma iluminação ambiental bem pensada. Evite uma escuridão total que force os jogadores a depender inteiramente do brilho máximo do monitor. Em vez disso, use luz do luar envolvente, refletores intermitentes de postos avançados e lanternas táticas de emergência próximas aos objetivos para guiar o fluxo dos combatentes, preservando o clima tenso do combate noturno.
-
-### Como evito que os jogadores saiam dos limites de combate pretendidos?
-Use barreiras de colisão invisíveis com faces verticais lisas ao longo de telhados, paredes rochosas e cercas perimetrais. Certifique-se de que adereços ambientais, como caixas de madeira empilhadas ou postes de iluminação, não possam ser explorados por meio de saltos agachados para ultrapassar os limites do nível. Teste minuciosamente todos os adereços do perímetro durante a validação inicial do graybox.
+**O número de 88 nações significa 88 jogadores por servidor?**
+Não. Esse número vem da descrição do jogo. É separado do campo de tamanho do servidor do Roblox e não deve ser tratado como capacidade testada.

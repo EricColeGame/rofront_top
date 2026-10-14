@@ -1,133 +1,81 @@
 export const metadata = {
-  title: "RoFront Custom Map Creation Guide: Best Layouts and Level Design Tips",
-  description: "Master RoFront custom map design with our complete guide on tactical layouts, choke points, spawn balancing, and asset optimization.",
+  title: "RoFront Custom Map: What Exists and How to Verify It",
+  description: "Searching for a RoFront custom map? Here is what the official Roblox listing documents, what it does not, and how to verify map options yourself.",
   category: "maps",
-  date: "2026-10-10",
+  date: "2026-10-14",
 };
 
-Custom environments are the lifeblood of tactical shooters, reshaping how squads maneuver, breach, and hold ground. Building a successful RoFront custom map requires a sharp understanding of spatial pacing, sightline management, and structural balance. When designed with precision, a RoFront custom map transforms ordinary firefights into unforgettable, high-stakes tactical showdowns that keep players returning round after round.
+If you searched for a **RoFront custom map**, you probably want to know one of two things: whether you can play on a map other than the default world, or whether you can build and share one. The honest answer, based on the sources available, is that neither is documented. That does not mean the question is unanswerable — it means the answer has to come from the game itself rather than from a guide that guesses.
 
-Whether you are looking to assemble close-quarters trench networks or expansive combined-arms combat arenas, mastering the fundamentals of level geometry is essential. This comprehensive guide walks you through the core design principles, spatial flow patterns, optimization techniques, and iteration workflows necessary to publish an elite battleground.
+Here is what the official listing actually says, what a third-party guide adds, and how to check the map situation in a live session.
 
-## Core Design Principles for a Balanced RoFront Custom Map
+## What the Official Listing Documents About the Map
 
-Every memorable military arena succeeds because it respects the relationship between player movement speed, weapon effective ranges, and reaction times. Designing a tactical battlefield demands deliberate planning around cover density, vertical hierarchy, and rotational routes. Without strict spatial control, matches quickly devolve into spawn-camping frustration or sniper-dominated gridlock.
+RoFront [World PvP] is a Roblox strategy experience by Torrey Pines, published at [place 137151641329864](https://www.roblox.com/games/137151641329864/RoFront). The verified description states it is "Based on the Open Front game" and describes "Real-time territory conquest." It also carries a direct credit line: "Map Credits to Open Front."
 
-Level creators must balance three primary engagement spaces: primary combat sectors, transitional corridors, and defensive anchors. When constructing a RoFront custom map, pacing dictates how aggressively players can push forward without being punished by unchecked firing angles.
+That credit is the single most important fact for this keyword. The map in RoFront is attributed to another project, not presented as a player-editable or player-selectable asset. The description lists what you can do in a match — expand from a single nation, attack neighbors, build cities, ports and factories, forge alliances, launch nukes — and none of those items is a map editor, a map browser, or a custom map slot.
 
-```
-[Base Alpha] ---> [Transition Lane] ---> [Contested Strongpoint] <--- [Transition Lane] <--- [Base Bravo]
-```
+The advertised win condition is to conquer 80% of the world. That phrasing assumes one shared world per match, which is consistent with a fixed map rather than a rotating or user-supplied one.
 
-A healthy engagement framework ensures that rifles, submachine guns, and long-range marksman platforms each have dedicated zones where their operational strengths shine.
+## Advertised Features vs. Map Customization
 
-| Combat Zone | Typical Engagement Distance | Primary Cover Density | Recommended Weaponry | Design Priority |
-| :--- | :--- | :--- | :--- | :--- |
-| **Zone A: Strongpoint Core** | 5 – 15 meters | Dense (Sandbags, interior walls, crates) | SMGs, Shotguns, Carbines | Rapid room clearing, multi-angle breaches |
-| **Zone B: Tactical Courtyards** | 15 – 45 meters | Moderate (Barricades, broken vehicles) | Assault Rifles, Battle Rifles | Flank opportunities, crossfire setups |
-| **Zone C: Perimeter Overlooks** | 45 – 90+ meters | Sparse (Elevated berms, window slits) | Marksman & Sniper Rifles | Controlled sightlines, reciprocal exposure |
-| **Zone D: Flank Trenches** | 10 – 25 meters | High (Depressed earth, revetments) | Shotguns, CQB Carbines | Stealth rotation, objective bypass |
+It helps to separate three categories clearly, because search results tend to blur them.
 
-### Sightline Regulation and "Rule of Three" Angles
+| Category | Status in the sources |
+| --- | --- |
+| Advertised gameplay features | Territory expansion, attacking neighbors, cities, ports, factories, alliances, nukes, 80% conquest goal |
+| Map attribution | Credited to Open Front in the official description |
+| Custom map creation or selection | Not documented in any source reviewed |
 
-A common pitfall among beginner creators is creating long, unbroken corridors that allow a single player to lock down an entire sector. Tactical environments thrive on the "Rule of Three Angles": a player holding a fortified position should ideally only have to monitor two distinct threat vectors simultaneously, with a maximum vulnerability to three. 
+The middle row matters. A map credit is an acknowledgment of origin. It is not a statement that the map is modifiable, and it is not a statement that alternative maps exist. Reading it as either would be an inference, not a fact.
 
-If an operator standing at an objective is exposed to four or more independent elevated angles, the position feels unfair rather than tactical. Break up open spaces using micro-terrain, shipping containers, ruined brickwork, and deflected corners that force players into decisive positional choices.
+## Why "Custom Map" Searches Often Miss
 
-## Architectural Layouts and Flow in RoFront Custom Map Development
+Roblox has a large ecosystem of games with map editors, and players reasonably carry that expectation into new titles. RoFront is a territory conquest game, not a sandbox builder. Its loop, as described, is about borders, neighbors, and a world-control meter — not about placing terrain.
 
-The structural skeleton of your arena dictates match tempo, reinforcement timing, and objective security. Choosing the right layout topology depends on the intended game modes and server player counts.
+There is also a naming trap. The third-party [Nisu guide](https://nisu.io/guides/rofront-roblox-guide/) explicitly warns that "Searches for similar names can lead to unrelated games or videos," and notes that a tutorial for the Roblox shooter Frontlines will not explain this experience. If you landed on a page about custom maps for a different game with a similar name, that is likely what happened.
 
-Community reports indicate that symmetrical designs deliver the fairest baseline for competitive skirmishes, while asymmetric layouts provide richer narrative and tactical immersion for attack-and-defend operations.
+## How to Verify Map Options Yourself
 
-| Layout Archetype | Symmetry Level | Structural Pacing | Best Mode Suitability | Primary Challenge |
-| :--- | :--- | :--- | :--- | :--- |
-| **Three-Lane Classic** | Symmetrical | Fast, predictable rotations | Team Deathmatch, Domination | Avoiding repetitive mid-lane standoffs |
-| **Figure-Eight (Crossover)** | Semi-Symmetrical | Dynamic, frequent flank encounters | Hardpoint, King of the Hill | Controlling chaotic center intersections |
-| **Asymmetric Fortress** | Asymmetrical | Methodical, high-tension pushes | Search & Destroy, Attack/Defend | Balancing defensive height advantages |
-| **Concentric Ring** | Radial Symmetrical | Continuous rotation, high flanking | Free-For-All, Multi-Team King | Preventing uncontrolled rear spawn collapses |
-| **Linear Sector Trench** | Directional | Frontline push, gradual tug-of-war | Push, Frontline Operations | Managing spawn travel fatigue |
+Since no source documents custom maps, the reliable path is direct inspection. These steps use only the official experience and creator.
 
-### Implementing Dynamic Choke Points
+1. Open the [official RoFront page](https://www.roblox.com/games/137151641329864/RoFront) and confirm the creator reads Torrey Pines before joining anything.
+2. Enter a match and look at the pre-match or lobby interface for any map selection, map voting, or map list control.
+3. During play, check whether any menu offers a map editor, import, or share option.
+4. If you find nothing, treat custom maps as undocumented rather than confirmed absent — features can exist without being written up.
 
-Choke points funnel opposing squads toward each other to create natural climax points during an encounter. However, a hard choke point—such as a single narrow blast door—produces stagnant grenade spam.
+Step four is deliberate. "Not documented" and "does not exist" are different claims, and only the first one is supported here.
 
-To create fluid gameplay across a RoFront custom map, always provide soft bypasses. A soft bypass can be a vaulted window, a crawlable ventilation passage, or a side trench that requires extra traversal time but rewards smart flankers with positional advantage over entrenched defenders.
+## Strategic Reading of a Fixed-Map Premise
 
-## Step-by-Step Blueprint: Building Your RoFront Custom Map
+The following is advice inferred from a territory conquest premise, not measured mechanics. If the world is the same each match, then map knowledge becomes a repeatable asset.
 
-Constructing a tactical environment requires a disciplined phase-by-phase workflow. Diving directly into detailed textures and environmental debris before validating gameplay scale almost always leads to wasted effort.
+- **Learn your starting region.** The Nisu guide suggests locating your territory, its borders, and neighboring nations before committing to anything. On a fixed map, that knowledge carries into your next match.
+- **Note chokepoints and coastlines.** Ports are an advertised build option, which implies water matters. Observing where coastlines sit relative to your borders is a reasonable habit, though the sources do not describe how ports function.
+- **Track the world-control display.** The Nisu guide recommends watching the world-control meter rather than judging progress by how large your colored area looks at the current zoom.
+- **Make one deliberate move, then observe.** This learning routine comes from the same third-party guide and is a sensible way to build map familiarity without relying on unverified build orders.
 
-```
-Phase 1: Grayboxing  ==>  Phase 2: Scale Testing  ==>  Phase 3: Logic & Spawns  ==>  Phase 4: Art Pass
-```
+None of this promises a win. The published goal is 80% world control, and a single successful attack does not reach it.
 
-Following an iterative pipeline ensures your structural mechanics are battle-tested before you invest hours into lighting and decorative assets.
+## What Remains Undocumented
 
-| Phase Number | Milestone Goal | Core Activities | Key Validation Metric |
-| :--- | :--- | :--- | :--- |
-| **Phase 1: Blockout** | Establish foundational geometry | Build primitive shapes for buildings, hills, and cover | Basic navigation feels natural; no trapped areas |
-| **Phase 2: Scale Verification** | Test locomotion metrics | Check vaulting heights, doorway widths, cover heights | Character model covers fit crouch/stand heights |
-| **Phase 3: Objective & Spawn Pass** | Implement game rules | Place spawn pads, flags, ammunition crates, safe bounds | Travel times between spawn and contest zone: 8–14s |
-| **Phase 4: Visual Theming** | Apply materials & models | Swap gray blocks for military barriers, walls, terrain | Visual clarity maintained; silhouette readability high |
-| **Phase 5: Audio & Lighting** | Atmospheric tuning | Configure baked lights, shadows, sound dampeners | Darkness does not obscure targets beyond fair limits |
+To be direct about the gaps: there is no documented custom map tool, no map list, no map codes, no community map repository, and no creator statement about map editing in the sources reviewed. There is also no documented Discord server, update log, or patch notes tied to maps.
 
-### Spawn Protection and Line-of-Sight Safety
+One number deserves care. The description mentions "88 player nations and hundreds of tribes." That is a description claim about the game world. It is not a server capacity figure, and it should not be read as one. The Nisu guide notes that Roblox's separate Server Size field showed 30 when checked, and that the listing does not explain how the two counts relate.
 
-Spawns are the most vulnerable element of any tactical arena. If an enemy can peer into a team's spawn yard from across the map, match integrity collapses.
+## FAQ
 
-When laying out base zones for a RoFront custom map, always enforce the "Dog-Leg" entry approach. Exiting players should negotiate at least one angled turn behind high structural walls before entering any active sightline. Additionally, incorporate multiple distinct exit vectors so defending players cannot be trapped inside a single doorway.
+**Does RoFront have a custom map feature?**
+No source documents one. The official description credits the map to Open Front and lists no map editor or map selection.
 
-## Performance Optimization and Asset Management
+**Can I make my own map in RoFront?**
+Not according to any available source. Verify in-game by checking menus for editor or import options.
 
-Tactical gameplay depends on high frame rates, sharp hit registration, and responsive control. An overcrowded map saturated with unoptimized polygon counts or dynamic lights causes frame pacing stutters that ruin gunfights.
+**Is the RoFront map the same as Open Front's?**
+The description credits Open Front for the map. It does not state whether the RoFront version is identical, modified, or scaled.
 
-To achieve clean rendering across various hardware setups, developers must follow modern engine guidelines, such as the asset performance and instancing recommendations found within the [Roblox Creator Documentation](https://create.roblox.com/).
+**Where should I check for updates about maps?**
+The [official Roblox experience page](https://www.roblox.com/games/137151641329864/RoFront) and the creator, Torrey Pines. Third-party guides are secondary observations, not developer documentation.
 
-| Asset / Parameter | Safe Target Budget | Heavy Load Warning | Critical Optimization Action |
-| :--- | :--- | :--- | :--- |
-| **Total Triangle Count** | Under 400,000 tris | Exceeding 750,000 tris | Convert repetitive mesh props into instanced assets |
-| **Draw Calls / Unique Parts** | 2,500 – 4,000 parts | 8,000+ parts | Group static background geometry into solid unions |
-| **Dynamic Light Sources** | 8 – 15 active lights | 30+ shadow-casting lights | Disable shadows on ambient bulbs; bake key illumination |
-| **Physics Collision Meshes** | Default/Precise for cover | High-poly meshes set to Precise | Set non-combat background props to 'Box' or 'Null' |
-| **Particle Emitters** | Under 20 simultaneous | 50+ dense particle emitters | Restrict smoke and dust effects to primary objective hubs |
-
-### Occlusion Culling and Sightline Blockers
-
-One of the most effective ways to maintain high performance in a large RoFront custom map is intentional sightline culling. Massive structural barriers—such as concrete blast walls, rock formations, and dense building silhouettes—do more than direct infantry movement: they stop the engine from rendering distant geometry on screen.
-
-By segmenting wide-open terrain into compartmentalized combat pockets, you save system memory and raise baseline frame rates for every player on the server.
-
-## Community Playtesting and Iteration Strategies
-
-No arena is complete on its initial compile. Thorough playtesting reveals unexpected sightlines, unfair head-glitch positions, and balance issues that solo creators inevitably overlook.
-
-Player experience shows that gathering structured feedback from coordinated squads yields far better balance results than hosting random public free-for-alls.
-
-| Observation / Feedback | Probable Design Root Cause | Recommended Level Adjustment |
-| :--- | :--- | :--- |
-| **Players constantly die within 3 seconds of spawning** | Direct sightline connects combat hub to base perimeter | Add an offset berm or dog-leg wall near the primary exit |
-| **One capture point is taken 80% more than others** | Asymmetrical approach times favor one team | Push the favored team's spawn back by 20–30 studs |
-| **Matches routinely end by time limit without score caps** | Defensive cover is excessively strong; flanks too long | Open a secondary breach route or reduce wall heights |
-| **Snipers dominate the entire center plaza** | Insufficient micro-cover and wide mid-lane opening | Deploy destroyed military vehicles, crates, and barriers |
-| **Shotguns and CQB weapons are completely unused** | Map geometry lacks tight interior transitions | Add a below-grade bunker system or flanking corridor |
-
-### Telemetry and Tactical Hotspots
-
-During your alpha testing weekends, record where the highest concentrations of player eliminations take place. If 70% of casualties happen at a single transitional corridor, that corridor is suffocating the rest of your RoFront custom map.
-
-Distribute objectives and high-value defensive power positions across opposite ends of the arena to encourage whole-map utilization rather than single-lane meat grinders.
-
-## Frequently Asked Questions About RoFront Custom Maps
-
-### How do I balance cover height for standard player stances?
-Cover should be modeled precisely against player character dimensions. Low cover designed for crouch-firing should measure roughly 3.5 to 4 studs high, allowing players to peek safely while crouched. Full-standing barricades should measure at least 6.5 to 7 studs high to protect operators completely from horizontal fire while standing upright.
-
-### What is the ideal travel time from spawn to the frontline on a RoFront custom map?
-For standard tactical game modes, an ideal transit time from spawn release to the initial frontline encounter is between 8 and 14 seconds. Traversal times under 6 seconds can encourage chaotic spawn-rushing, while times over 18 seconds create tedious downtime that drains match momentum.
-
-### Can custom maps support night operations effectively?
-Yes, but night operations require thoughtful environmental lighting. Avoid pitch-black darkness that forces players to rely entirely on maximum monitor brightness. Instead, deploy atmospheric moonlight, flickering outpost floodlights, and tactical emergency lanterns near objectives to guide player flow while preserving the tense mood of night combat.
-
-### How do I prevent players from climbing out of the intended combat boundary?
-Use invisible collision barriers with smooth vertical faces along rooftops, rock faces, and perimeter fences. Ensure that environmental props such as stacked wooden crates or light poles cannot be exploited through jump-crouch maneuvers to bypass your level boundaries. Thoroughly test all perimeter props during early graybox validation.
+**Does the 88-nation figure mean 88 players per server?**
+No. That figure comes from the game description. It is separate from Roblox's server size field and should not be treated as tested capacity.

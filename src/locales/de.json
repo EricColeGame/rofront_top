@@ -2,117 +2,117 @@
   "site": {
     "name": "RoFront Wiki",
     "shortName": "RoFront",
-    "tagline": "Codes, Guides & Strategien",
-    "description": "Das RoFront Wiki bietet umfassende Guides, Taktiktipps, Codes, Nationen-Informationen und Gameplay-Ressourcen für Roblox-Spieler zur Eroberung von Territorien und Beherrschung globaler PvP-Schlachten.",
-    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler erstellt."
+    "tagline": "Guide & Strategie",
+    "description": "Das RoFront Wiki bietet von Fans erstellte Guides, Strategieempfehlungen, Nationen-Notizen und Gameplay-Ressourcen, um Roblox-Spielern zu helfen, Territoriumseroberung und globales PvP zu verstehen.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler gemacht."
   },
   "nav": {
     "home": "Startseite",
-    "guide": "Guide",
-    "mechanics": "Mechaniken",
-    "combat": "Kampf",
-    "maps": "Karten",
-    "progression": "Fortschritt",
-    "controls": "Steuerung",
-    "community": "Community",
+    "guide": "Einsteiger-Guide",
+    "mechanics": "Wirtschaft",
+    "combat": "Eroberung",
+    "maps": "Welt",
+    "progression": "Nationen",
+    "controls": "Einstellungen",
+    "community": "Updates",
     "menu": "Menü",
-    "toggleTheme": "Design wechseln"
+    "toggleTheme": "Design umschalten"
   },
   "home": {
     "meta": {
-      "title": "RoFront Wiki — Codes, Guides & Strategie",
-      "description": "Vollständiger RoFront Guide auf Roblox mit taktischen Kampfleitfäden, Trupp-Rollen, Waffen-Loadouts und Strategien zur territorialen Eroberung."
+      "title": "RoFront Wiki — Guide & Strategie",
+      "description": "Von Fans erstellter RoFront-Guide mit Einsteigerschritten, Nationen, Territoriumseroberung, Wirtschaft, Gebäuden, Diplomatie, offiziellen Updates und Einstellungen."
     },
     "hero": {
-      "eyebrow": "Globale Territorium-Strategie PvP",
+      "eyebrow": "Globale Territorium-Strategie-PvP",
       "title": "RoFront Wiki",
-      "description": "RoFront ist ein globales Roblox-Eroberungsstrategiespiel, in dem Spieler Nationen vergrößern, Städte errichten, Ressourcen managen, Allianzen schmieden und in Echtzeit-PvP-Schlachten um die Weltherrschaft kämpfen.",
+      "description": "RoFront ist ein Roblox-Echtzeit-Territoriumseroberungsspiel, das auf Open Front basiert. Die offizielle Beschreibung bewirbt 88 Spielernationen und Hunderte Stämme, in denen Spieler von einer einzigen Nation aus expandieren, Nachbarn angreifen, Städte, Häfen und Fabriken bauen, Allianzen schmieden, Atomwaffen abfeuern und versuchen, 80 % der Welt zu erobern.",
       "stats": [
-        "Roblox Plattform",
-        "88 Nationen Verfügbar",
-        "Gebiets-Eroberung",
-        "Echtzeit-Strategie PvP"
+        "Roblox-Plattform",
+        "88 Nationen in der Beschreibung",
+        "Territoriumseroberung",
+        "Echtzeit-PvP"
       ],
       "primaryCta": "Einsteiger-Guide",
-      "secondaryCta": "Territorium-Strategie",
-      "tertiaryCta": "Aktive Codes",
-      "videoLabel": "Offizielle Medien"
+      "secondaryCta": "Territoriumsstrategie",
+      "tertiaryCta": "Updates & Einstellungen",
+      "videoLabel": "Spielübersicht"
     },
     "updates": {
-      "title": "Neueste Updates",
-      "browse": "Alle Guides Durchsuchen",
-      "viewAll": "Alle Anzeigen"
+      "title": "Wiki-Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle anzeigen"
     },
     "start": {
-      "eyebrow": "Hier Starten",
-      "title": "Deine RoFront Reise",
+      "eyebrow": "Hier beginnen",
+      "title": "Deine RoFront-Reise",
       "cards": [
         {
           "number": "1",
-          "title": "Einsteiger-Guide",
-          "description": "Meistere grundlegende Bewegungsmuster, Waffenführung und Trupp-Mechaniken für deinen ersten Einsatz in RoFront."
+          "title": "Einsteigerschritte",
+          "description": "Lerne den grundlegenden Match-Ablauf, die In-Game-Menüs und allgemeine Expansionsgewohnheiten, bevor du aggressive Züge machst."
         },
         {
           "number": "2",
-          "title": "Kampfgrundlagen",
-          "description": "Lerne Grabenkrieg-Taktiken, Unterdrückungserholung und wirksame Rückstoßkontrolle in aktiven Gefechtszonen."
+          "title": "Nationen",
+          "description": "Überprüfe die verfügbaren Nationenauswahlen und Startpositionen im Live-Spiel. Die Beschreibung bewirbt 88 Spielernationen, aber genaue Werte und Serverkapazität werden hier nicht verifiziert."
         },
         {
           "number": "3",
-          "title": "Ressourcen-Leitfaden",
-          "description": "Verwalte Nachschub, Schrott-Knoten und taktische Anforderungspunkte, um dein Team bewaffnet und befestigt zu halten."
+          "title": "Territoriumseroberung",
+          "description": "Nutze allgemeine Eroberungshinweise: expandiere vorsichtig, greife Nachbarn an, wenn es günstig ist, verteidige Grenzen und arbeite auf die beschriebene 80-%-Siegbedingung hin."
         },
         {
           "number": "4",
-          "title": "Beste Klassen",
-          "description": "Wähle zwischen Sturm, Unterstützer, Feldsanitäter, Aufklärer und Pionier, um optimale Team-Synergien zu erzielen."
+          "title": "Wirtschaft & Gebäude",
+          "description": "Städte, Häfen und Fabriken werden in der offiziellen Beschreibung erwähnt; prüfe die In-Game-Baumenüs auf aktuelle Kosten, Platzierungsregeln und Effekte."
         }
       ]
     },
     "popular": {
       "eyebrow": "Beliebte Seiten",
-      "title": "Aktuell im Trend",
+      "title": "Gerade im Trend",
       "quickLinks": [
         "Einsteiger-Guide",
-        "Kampftaktiken",
-        "Ressourcen-Logistik",
-        "Trupp-Rollen"
+        "Nationen-Notizen",
+        "Eroberungsgrundlagen",
+        "Gebäude & Wirtschaft"
       ],
       "cards": [
         {
           "badge": "Einsteiger",
           "title": "Einsteiger-Guide",
-          "description": "Wichtige Bewegungsabläufe, Steuerung und taktische Positionierung für dein erstes RoFront Match.",
+          "description": "Allgemeine Tipps für das erste Match zum Lesen der Karte, sicheren Expandieren und Verstehen der In-Game-Hinweise.",
           "href": "/guide/rofront-beginner-guide"
         },
         {
-          "badge": "Taktik",
-          "title": "Kriegs-Kampf-Guide",
-          "description": "Meistere Gefechte an vorderster Front, Grabenkämpfe und Sektorenkontroll-Mechaniken.",
+          "badge": "Eroberung",
+          "title": "Territoriumseroberung",
+          "description": "Allgemeine Vorschläge zum Expandieren, Angreifen von Nachbarn, Verteidigen von Grenzen und Anstreben des beschriebenen 80-%-Ziels.",
           "href": "/combat/rofront-war"
         },
         {
-          "badge": "Logistik",
-          "title": "Ressourcen-Management",
-          "description": "Verwalte Munition, Schrottmaterialien und Verstärkungstickets zur Unterstützung deines Teams.",
+          "badge": "Gebäude",
+          "title": "Gebäude & Infrastruktur",
+          "description": "Notizen zu Städten, Häfen und Fabriken aus der offiziellen Beschreibung; genaue Kosten und Effekte werden hier nicht verifiziert.",
           "href": "/mechanics/rofront-resources"
         },
         {
-          "badge": "Trupp",
-          "title": "Armee-Rollen & Klassen",
-          "description": "Optimiere Truppzusammenstellungen zwischen Sturm, schwerer Unterstützung, Sanitäter und Aufklärung.",
+          "badge": "Nationen",
+          "title": "Nationen & Startpositionen",
+          "description": "Wie man Nationenauswahlen und nahegelegenes Territorium im Live-Spiel überprüft. Es werden keine Tier-Ränge beansprucht.",
           "href": "/combat/rofront-army"
         },
         {
           "badge": "Strategie",
-          "title": "Beste Strategien",
-          "description": "Erstklassige Taktiken zur Koordination von Team-Offensiven und Erringung entscheidender Siege.",
+          "title": "Expansionsstrategie",
+          "description": "Allgemeine Planungsvorschläge für Wachstum, Verteidigung und Diplomatie. Keine bestätigte Build-Reihenfolge oder Gewinnformel.",
           "href": "/progression/rofront-best-strategy"
         },
         {
-          "badge": "Steuerung",
-          "title": "Steuerung & Tastenbelegung",
-          "description": "Vollständiges Tastatur-Layout, Empfindlichkeitsanpassung und Tipps für flüssige Bewegungen.",
+          "badge": "Einstellungen",
+          "title": "Einstellungen & Steuerung",
+          "description": "Allgemeine Einstellungshinweise. Prüfe die In-Game-Menüs auf aktuelle Belegungen, anstatt sich auf eine umfassende Steuerungstabelle zu verlassen.",
           "href": "/controls/rofront-controls"
         }
       ]
@@ -120,8 +120,8 @@
     "aboutGame": {
       "title": "Was ist RoFront?",
       "paragraphs": [
-        "RoFront ist ein groß angelegtes taktisches Mehrspieler-Kriegsspiel auf Roblox, das sich um intensive Frontkämpfe, Grabenschlachten und strategische Gebietskontrolle dreht. Spieler schließen sich organisierten Trupps auf verschiedenen Kriegsschauplätzen an und nutzen Unterdrückungseffekte, realistische Ballistik und taktische Deckung, um feindliche Verbände auszumanövrieren.",
-        "Ob du Sturmangriffe auf befestigte Bunker anführst, als Feldsanitäter die Frontlinie stabilisierst oder Nachschubdepots und Stacheldrahthindernisse errichtest: Unser Wiki bietet ausführliche Guides, Waffendatenbanken und taktische Analysen für deinen Erfolg auf dem Schlachtfeld."
+        "RoFront ist ein Roblox-Echtzeit-Territoriumseroberungsspiel, das auf Open Front basiert. Laut seiner offiziellen Beschreibung starten Spieler von einer einzigen Nation aus, greifen Nachbarn an, bauen Städte, Häfen und Fabriken, schmieden Allianzen und feuern Atomwaffen ab, während sie gegen 88 beworbene Spielernationen und Hunderte Stämme antreten. Die angegebene Siegbedingung ist die Eroberung von 80 % der Welt.",
+        "Dieses Fan-Wiki bietet allgemeine Strategieempfehlungen und klar dargelegte Dokumentationsgrenzen. Es beansprucht keine verifizierten aktiven Codes, exklusiven offiziellen Medien, umfassenden Steuerungstabellen, bestätigten benutzerdefinierten Karten, bestätigte Serverkapazität, ein Subreddit, eine Discord-Einladung, eine Roadmap oder Patch-Notes. Nutze In-Game-Informationen für aktuelle Mechaniken, Kosten und Veröffentlichungsdetails."
       ],
       "stats": [
         {
@@ -134,11 +134,11 @@
         },
         {
           "label": "Genre",
-          "value": "Taktisches Kriegs-PvP"
+          "value": "Strategie / Territoriumseroberung"
         },
         {
           "label": "Nationen",
-          "value": "88"
+          "value": "88 in der Beschreibung beworben"
         },
         {
           "label": "Spiel-Engine",
@@ -146,358 +146,358 @@
         },
         {
           "label": "Spielmodus",
-          "value": "Trupp-Gefecht"
+          "value": "Welt-PvP"
         }
       ],
-      "cta": "Alle Guides Entdecken"
+      "cta": "Alle Guides erkunden"
     },
     "explore": {
-      "title": "RoFront Wiki Entdecken",
-      "description": "Beherrsche den Frontkampf in RoFront mit fundierten Waffenübersichten, Klassen-Setups, Missionstaktiken und Systemanforderungen.",
+      "title": "RoFront Wiki erkunden",
+      "description": "Erfahre mehr über Einsteigerschritte, Nationen, Eroberung, Wirtschaft, Gebäude, Diplomatie, offizielle Updates und Einstellungen. Genaue Mechaniken, Kosten und Timing werden hier nicht bestätigt.",
       "modules": [
         {
           "order": 1,
-          "name": "RoFront Einsteiger-Guide",
-          "description": "Dieses Modul vermittelt neuen Spielern die Kernmechaniken, Missionsstrukturen, Kampffähigkeiten, Fortschrittssysteme und wichtige Startstrategien.",
+          "name": "RoFront Einsteigerschritte",
+          "description": "Ein Startmodul für neue Spieler. Es behandelt den allgemeinen Ablauf des ersten Matches, das Lesen der In-Game-Karte und Menüs sowie vorsichtige frühe Expansionsgewohnheiten. Es bietet keine verifizierten Formeln oder Abkürzungsmethoden.",
           "href": "/guide/rofront-beginner-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Rücke mit einem ausgewogenen Trupp aus Sturm, Sanitäter oder Unterstützer aus"
+              "detail": "Öffne das Spiel und überprüfe den Live-Match-Status, die Karte und die verfügbaren Menüs."
             },
             {
               "label": "2",
-              "detail": "Teile Ausdauer zwischen Schützengräben klug ein, um nicht im offenen Feld zu verharren"
+              "detail": "Identifiziere deine Nation, nahegelegenes Territorium und alle angezeigten In-Game-Ziele."
             },
             {
               "label": "3",
-              "detail": "Wirf Rauchgranaten, um Scharfschützen-Sichtlinien zu brechen und Verwundete zu retten"
+              "detail": "Expandiere schrittweise, wenn es sicher ist; vermeide Überdehnung, bevor du die Nachbarn verstehst."
             },
             {
               "label": "4",
-              "detail": "Erobere befestigte Sektoren und halte Kontrollzonen, um gegnerische Tickets zu leeren"
+              "detail": "Behalte das beschriebene 80-%-Welteroberungsziel im Auge und passe dich an Allianzen und Bedrohungen an."
             }
           ]
         },
         {
           "order": 2,
-          "name": "RoFront Waffen-Guide",
-          "description": "Dieses Modul behandelt verfügbare Waffen, Upgrades, Loadout-Empfehlungen und Kampftipps für das ideale Arsenal.",
+          "name": "RoFront Nationen-Guide",
+          "description": "Dieses Modul behandelt Nationenauswahlen und Startpositionen in allgemeinen Begriffen. Die offizielle Beschreibung bewirbt 88 Spielernationen, aber dieses Wiki verifiziert keine Serverkapazität, Nationenwerte oder Tier-Ränge.",
           "href": "/combat/rofront-army",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S",
-              "detail": "Dienstgewehre & DMRs — Höchste Präzision auf mittlere Distanz, beherrschbarer Rückstoß und enorme Durchschlagskraft"
+              "label": "Startnation",
+              "detail": "Überprüfe die In-Game-Nationenliste auf aktuelle Auswahlen; genaue Attribute werden hier nicht dokumentiert."
             },
             {
-              "label": "A",
-              "detail": "Maschinenpistolen — Tödliche Feuerrate und exzellentes Handling für Grabenkämpfe und Bunkerstürmungen"
+              "label": "Nachbarn",
+              "detail": "Die Startposition beeinflusst die frühe Expansion, also scanne nahegelegenes Territorium, bevor du dich für eine Richtung entscheidest."
             },
             {
-              "label": "B",
-              "detail": "Leichte Maschinengewehre — Große Magazinkapazität und dauerhaftes Sperrfeuer zum Sichern von Engpässen"
+              "label": "Positionierung",
+              "detail": "Betrachte Grenzen und offenen Raum als allgemeine Planungsfaktoren, nicht als garantierte Vorteile."
             },
             {
-              "label": "C",
-              "detail": "Standard-Pistolen & Schrotflinten — Situative Zweitwaffen für Notfälle im Nahkampf"
+              "label": "Langfristig",
+              "detail": "Die Nationenwahl ersetzt nicht Diplomatie und Expansion; passe dich an die Live-Karte an."
             }
           ]
         },
         {
           "order": 3,
-          "name": "RoFront Missions-Guide",
-          "description": "Dieses Modul liefert Missionsdetails, Einsatzziele, Spielmodi und Lösungsstrategien für den erfolgreichen Frontverlauf.",
+          "name": "RoFront Eroberungs-Guide",
+          "description": "Dieses Modul behandelt Territoriumseroberung in allgemeinen Begriffen: Expansion, Angriff auf Nachbarn, Verteidigung, Diplomatie, Bauen und die beschriebene 80-%-Siegbedingung. Es beansprucht keine festen Truppenformeln, Einheitentypen oder Kosten.",
           "href": "/combat/rofront-war",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "Sektor",
-              "detail": "Erobere und sichere befestigte territoriale Kontrollpunkte an der Front"
+              "label": "Expandieren",
+              "detail": "Bewege dich in nahegelegenes Territorium, wenn die Live-Karte und Diplomatie es zulassen."
             },
             {
-              "label": "Sturm",
-              "detail": "Durchbrich gegnerische Gräben und schalte befestigte Maschinengewehrnester aus"
+              "label": "Angreifen",
+              "detail": "Das Angreifen von Nachbarn ist Teil der offiziellen Beschreibung, aber Timing und Ziele hängen vom Match ab."
             },
             {
-              "label": "Verteidigung",
-              "detail": "Halte verstärkte Bunkeranlagen gegen kontinuierliche Wellen feindlicher Infanterie"
+              "label": "Verteidigen",
+              "detail": "Schütze Schlüsselbereiche und vermeide Überdehnung, bevor deine Position stabil ist."
             },
             {
-              "label": "Aufklärung",
-              "detail": "Spähe gegnerische Truppenbewegungen aus und eliminiere hochrangige Ziele"
+              "label": "Bauen",
+              "detail": "Städte, Häfen und Fabriken werden in der offiziellen Beschreibung erwähnt; nutze das In-Game-Baumenü für aktuelle Optionen."
             },
             {
-              "label": "Eskorte",
-              "detail": "Schütze kriegswichtige Nachschubkonvois auf dem Weg zu vorgeschobenen Munitionslagern"
+              "label": "Diplomatie",
+              "detail": "Allianzen können den Druck verringern, aber spezifische Vertragsregeln werden hier nicht dokumentiert."
             },
             {
-              "label": "Bergung",
-              "detail": "Sichere geheime Lageberichte und setze dich sicher zu den Evakuierungszonen ab"
+              "label": "Sieg",
+              "detail": "Die angegebene Siegbedingung ist laut offizieller Beschreibung die Eroberung von 80 % der Welt."
             }
           ]
         },
         {
           "order": 4,
-          "name": "RoFront Fähigkeiten & Fertigkeiten",
-          "description": "Dieses Modul erläutert Charakterattribute, Dash-Sprints, Zeitlupen-Reflexe und Talentupgrades zur Steigerung deiner Kampfkraft.",
+          "name": "RoFront Wirtschaft & Expansion",
+          "description": "Dieses Modul erklärt Wirtschaft und Expansion auf allgemeiner Ebene und nennt Dokumentationsgrenzen. Genaue Einnahmen, Kosten, Unterhalt, Erträge und Bauzeiten werden hier nicht verifiziert.",
           "href": "/mechanics/rofront-mechanics",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "Reflexe",
-              "detail": "Erhöht die Reaktionsgeschwindigkeit und stabilisiert das Waffenvisier in Feuergefechten"
+              "label": "Einnahmen",
+              "detail": "Die offizielle Beschreibung enthält keine genauen Einnahmenregeln; prüfe die In-Game-Wirtschaftspanels auf aktuelle Informationen."
             },
             {
-              "label": "Dash",
-              "detail": "Führe schnelle Ausweichsprints zwischen exponierten Deckungspositionen aus"
+              "label": "Expansion",
+              "detail": "Die Expansion von Territorium ist zentral für das Spiel; balanciere Wachstum mit Verteidigung und Diplomatie."
             },
             {
-              "label": "Unterdrückung",
-              "detail": "Schränke Sicht und Zielgenauigkeit des Feindes durch anhaltendes Dauerfeuer massiv ein"
+              "label": "Unterhalt",
+              "detail": "Hier werden keine verifizierten Unterhalts- oder Kostendaten dokumentiert; vermeide die Annahme bestimmter Zahlen."
             },
             {
-              "label": "Wiederbeleben",
-              "detail": "Hole niedergeschlagene Teamkollegen rasch zurück, um wertvolle Verstärkungstickets zu sparen"
+              "label": "Gebäude",
+              "detail": "Städte, Häfen und Fabriken werden beworben; siehe das Gebäude-Modul für allgemeine Hinweise."
             },
             {
-              "label": "Befestigen",
-              "detail": "Errichte Sandsackbarrieren und Stacheldraht um strategisch entscheidende Kontrollzonen"
+              "label": "Handel",
+              "detail": "Handelsmechaniken werden in der offiziellen Beschreibung nicht detailliert; bestätige Details im Spiel."
             },
             {
-              "label": "Aufmunitionieren",
-              "detail": "Verteile Munitionskisten, damit deinen Verbündeten im Gefecht niemals die Patronen ausgehen"
+              "label": "Planung",
+              "detail": "Behandle Wirtschaftsratschläge als allgemeine Strategie, nicht als verifizierte Formeln oder garantierte Erträge."
             }
           ]
         },
         {
           "order": 5,
-          "name": "RoFront Ausrüstungs-Guide",
-          "description": "Dieses Modul fasst Schutzwesten, Helme, Rucksäcke und Zusatzausrüstung zusammen, um Verteidigungswerte optimal abzustimmen.",
+          "name": "RoFront Gebäude-Guide",
+          "description": "Dieses Modul organisiert allgemeine Hinweise zu Gebäuden, die in der offiziellen Beschreibung erwähnt werden, darunter Städte, Häfen und Fabriken. Es bietet keine bestätigten Kosten, Bauzeiten, Produktionsformeln oder Platzierungsboni.",
           "href": "/mechanics/rofront-resources",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "Weste",
-              "detail": "Verstärkte ballistische Schutzweste zur Dämpfung von Schüssen auf den Oberkörper"
+              "label": "Städte",
+              "detail": "Die offizielle Beschreibung erwähnt den Bau von Städten; aktuelle Anforderungen werden hier nicht dokumentiert."
             },
             {
-              "label": "Helm",
-              "detail": "Taktischer Kopfschutz zur Verhinderung sofortiger tödlicher Scharfschützen-Kopftreffer"
+              "label": "Häfen",
+              "detail": "Häfen werden in der offiziellen Beschreibung erwähnt; prüfe das In-Game-Baumenü auf Verfügbarkeit."
             },
             {
-              "label": "Rucksack",
-              "detail": "Erweiterte Tragekapazität für zusätzliche Magazine, Granaten und Verbandskästen"
+              "label": "Fabriken",
+              "detail": "Fabriken werden in der offiziellen Beschreibung erwähnt; genaue Produktionseffekte werden hier nicht dokumentiert."
             },
             {
-              "label": "Gasmaske",
-              "detail": "Unverzichtbarer Schutz gegen Reizgas und dichte taktische Rauchschwaden"
+              "label": "Platzierung",
+              "detail": "Platzierungsstrategie ist ein allgemeiner Vorschlag: Berücksichtige Grenzen, Zugang und Schutz."
             },
             {
-              "label": "Granaten",
-              "detail": "Splitter- und Nebelgranaten zum Stürmen von Gräben und Absichern offener Wege"
+              "label": "Verteidigung",
+              "detail": "Gebäude benötigen möglicherweise Schutz, aber es werden keine verifizierten Verteidigungsboni beansprucht."
             },
             {
-              "label": "Werkzeuge",
-              "detail": "Feldspaten und Drahtzangen zur Errichtung und Demontage von Feldbefestigungen"
+              "label": "Grenzen",
+              "detail": "Kosten, Bauzeiten und Limits können sich ändern; nutze In-Game-Informationen."
             }
           ]
         },
         {
           "order": 6,
-          "name": "RoFront Feind-Guide",
-          "description": "Dieses Modul analysiert gegnerische Einheitentypen, taktische Angriffsmuster und Gegenmaßnahmen für jede Bedrohungslage.",
+          "name": "RoFront Diplomatie & Allianzen",
+          "description": "Dieses Modul behandelt Diplomatie und Allianzen in allgemeinen Begriffen. Es beansprucht keine bestätigten Vertragstabellen, Abklingzeiten, Verratsmechaniken oder erschöpfenden Allianzregeln.",
           "href": "/combat/rofront-defense-strategy",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "Sturmtruppen",
-              "detail": "Aggressive Stoßtrupps, die mit schnell schießenden Automatikwaffen vorstürmen"
+              "label": "Allianzen",
+              "detail": "Das Schmieden von Allianzen steht in der offiziellen Beschreibung; spezifische Allianzregeln werden hier nicht dokumentiert."
             },
             {
-              "label": "Scharfschützen",
-              "detail": "Getarnte Präzisionsschützen, die ungedeckte Soldaten auf weite Distanz ausschalten"
+              "label": "Nachbarn",
+              "detail": "Diplomatie beginnt oft mit nahegelegenen Nationen; beobachte Grenzen und In-Game-Nachrichten."
             },
             {
-              "label": "Maschinengewehrschützen",
-              "detail": "Verschanzte Schützen mit schweren Waffen, die Schlüsselkorridore abriegeln"
+              "label": "Atomwaffen",
+              "detail": "Atomwaffen werden in der offiziellen Beschreibung erwähnt; Startanforderungen und Effekte werden hier nicht dokumentiert."
             },
             {
-              "label": "Offiziere",
-              "detail": "Führungskräfte, die vernichtende Artillerieschläge und Mörserangriffe anfordern"
+              "label": "Stämme",
+              "detail": "Die Beschreibung bewirbt Hunderte Stämme; ihr genaues Verhalten wird hier nicht dokumentiert."
             },
             {
-              "label": "Flankierer",
-              "detail": "Lautlose Infiltratoren, die tote Winkel ausnutzen und Gräben von hinten attackieren"
+              "label": "Verrat",
+              "detail": "Allianzen können sich ändern; behalte allgemeine Verteidigungspläne bei, anstatt sich auf dauerhafte Pakte zu verlassen."
             },
             {
-              "label": "Panzerung",
-              "detail": "Schwer gepanzerte Einheiten, die koordinierte Sprengstoffe und Panzerabwehr erfordern"
+              "label": "Grenzen",
+              "detail": "Hier werden keine Vertragstabellen, Abklingzeiten oder Vertrauensmechaniken bestätigt."
             }
           ]
         },
         {
           "order": 7,
-          "name": "RoFront News & Updates",
-          "description": "Dieses Modul bündelt Patch-Notizen, Entwicklungs-Updates, Roadmaps und Event-Ankündigungen für einen vollständigen Überblick.",
+          "name": "RoFront Offizielle Updates",
+          "description": "Dieses Modul verweist auf offizielle Update-Quellen und nennt, was dieses Fan-Wiki nicht bestätigt. Es beansprucht keine Roadmap, Patch-Notes, exklusive Medien oder verifizierte aktive Codes.",
           "href": "/community/rofront-updates",
           "displayType": "card-list",
           "highlights": [
             {
-              "label": "Roadmap",
-              "detail": "Kommende Kriegsschauplätze, Militärfahrzeuge und Ranglisten-Modi"
+              "label": "Spielseite",
+              "detail": "Nutze die offizielle Roblox-Spielseite für die neueste Beschreibung und den Update-Zeitstempel."
             },
             {
-              "label": "Patches",
-              "detail": "Regelmäßige Balance-Anpassungen an Waffenrückstoß, Geschossgeschwindigkeit und Trefferzonen"
+              "label": "Updates",
+              "detail": "Dieses Wiki beansprucht keine Roadmap oder Patch-Notes; prüfe die Spielseite oder Entwicklerkanäle."
             },
             {
-              "label": "Briefings",
-              "detail": "Offizielle Entwicklerberichte zu geplanten Spielinhalten und Gameplay-Verbesserungen"
+              "label": "Ankündigungen",
+              "detail": "Offizielle Ankündigungen können außerhalb dieses Fan-Wikis erscheinen; verifiziere sie, bevor du dich darauf verlässt."
             },
             {
-              "label": "Events",
-              "detail": "Zeitlich begrenzte Kampagnen mit exklusiven taktischen Kosmetikbelohnungen"
+              "label": "Grenzen",
+              "detail": "Hier werden keine verifizierten aktiven Codes, exklusiven Medien oder bestätigten zukünftigen Inhalte versprochen."
             }
           ]
         },
         {
           "order": 8,
-          "name": "Systemanforderungen für RoFront",
-          "description": "Dieses Modul zeigt Mindest- und empfohlene PC-Spezifikationen, Grafikeinstellungen und Performance-Tipps für flüssiges Gameplay.",
+          "name": "RoFront Einstellungen & Leistung",
+          "description": "Dieses Modul behandelt Einstellungen und Leistung in allgemeinen Begriffen. Es bietet keine erfundenen PC-Hardwareanforderungen oder eine umfassende Steuerungstabelle; prüfe Roblox und die In-Game-Menüs auf aktuelle Einstellungen.",
           "href": "/controls/rofront-settings",
           "displayType": "code-cards",
           "highlights": [
             {
-              "label": "OS",
-              "detail": "Windows 10 / 11 64-Bit oder macOS 11+ mit modernem Roblox-Client",
-              "badge": "Betriebssystem"
+              "label": "Plattform",
+              "detail": "RoFront läuft auf Roblox; unterstützte Geräte folgen den Roblox-Anforderungen, nicht einer separaten PC-Spezifikationsliste hier.",
+              "badge": "Roblox"
             },
             {
-              "label": "Prozessor",
-              "detail": "Intel Core i5-4460 / AMD Ryzen 3 1200 Quad-Core Prozessor",
-              "badge": "Hardware"
+              "label": "Leistung",
+              "detail": "In-Game-Einstellungen können die Leistung beeinflussen; nutze Roblox- und Gerätesteuerungen, um die Qualität anzupassen.",
+              "badge": "Einstellungen"
             },
             {
-              "label": "Arbeitsspeicher",
-              "detail": "Mindestens 8 GB RAM, 16 GB empfohlen für Großschlachten",
-              "badge": "Speicher"
+              "label": "Grafik",
+              "detail": "Hier werden keine verifizierten RoFront-spezifischen Grafikanforderungen dokumentiert.",
+              "badge": "Grenze"
             },
             {
-              "label": "Grafikkarte",
-              "detail": "NVIDIA GeForce GTX 960 / AMD Radeon R9 280 (DirectX 11)",
-              "badge": "Grafik"
-            },
-            {
-              "label": "Festplatte",
-              "detail": "SSD-Speicher empfohlen für schnelle Ladezeiten und Textur-Streaming",
-              "badge": "Speicherplatz"
+              "label": "Speicher",
+              "detail": "Installationsgröße und Asset-Streaming hängen von Roblox ab; es werden keine verifizierten RoFront-Speicherzahlen angegeben.",
+              "badge": "Grenze"
             },
             {
               "label": "Netzwerk",
-              "detail": "Breitband-Internetverbindung mit stabilem, niedrigem Ping",
-              "badge": "Netzwerk"
+              "detail": "Eine stabile Verbindung ist im Allgemeinen für Echtzeit-PvP nützlich, aber es wird keine genaue Ping- oder Bandbreitenanforderung bestätigt.",
+              "badge": "Allgemein"
+            },
+            {
+              "label": "Steuerung",
+              "detail": "Steuerungsbelegungen können sich ändern; prüfe das In-Game-Menü, anstatt sich auf eine umfassende Tabelle hier zu verlassen.",
+              "badge": "In-Game"
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Häufig Gestellte Fragen",
-      "description": "Schnelle Antworten auf die wichtigsten Fragen zu Gameplay, Kampfmechaniken und Taktiken in RoFront.",
+      "title": "Häufig gestellte Fragen",
+      "description": "Schnelle Antworten zu RoFront-Gameplay, Details der offiziellen Beschreibung und Dokumentationsgrenzen.",
       "items": [
         {
           "question": "Was ist RoFront?",
-          "answer": "RoFront ist ein taktisches Militär-Kriegsspiel auf Roblox mit groß angelegten Frontkämpfen, Trupp-Koordination und strategischer Sektorenkontrolle."
+          "answer": "RoFront ist laut seiner offiziellen Beschreibung ein Roblox-Echtzeit-Territoriumseroberungsspiel, das auf Open Front basiert. Spieler starten von einer einzigen Nation aus, expandieren, bauen, verbünden sich und treten an, um 80 % der Welt zu erobern."
         },
         {
-          "question": "Welche Klasse sollten Einsteiger in RoFront wählen?",
-          "answer": "Für Neulinge sind Sturm oder Feldsanitäter ideal, da sie ausgewogene Kampfeigenschaften und hohe Überlebenschancen für das Team bieten."
+          "question": "Worauf sollten sich Einsteiger konzentrieren?",
+          "answer": "Allgemeiner Einsteigerrat ist, die In-Game-Oberfläche kennenzulernen, vorsichtig zu expandieren, Nachbarn zu beobachten und Überdehnung zu vermeiden, bevor man die Live-Karte versteht."
         },
         {
-          "question": "Wie funktioniert die Unterdrückungsmechanik in RoFront?",
-          "answer": "Schweres gegnerisches Feuer führt zu Tunneleffekt und erhöhtem Waffenrückstoß, sodass Spieler Deckung suchen müssen, bis sich der Charakter beruhigt."
+          "question": "Hat RoFront verifizierte aktive Codes?",
+          "answer": "Dieses Fan-Wiki listet keine verifizierten aktiven Codes auf. Prüfe die offizielle Roblox-Spielseite oder Entwicklerkanäle auf etwaige Code-Ankündigungen."
         },
         {
-          "question": "Gibt es aktive Einlösecodes für RoFront?",
-          "answer": "RoFront veröffentlicht regelmäßig Promo-Codes für kosmetische Waffen-Skins, taktische Spielwährung und Profilabzeichen bei saisonalen Events."
+          "question": "Wie viele Nationen gibt es in RoFront?",
+          "answer": "Die offizielle Beschreibung bewirbt 88 Spielernationen und Hunderte Stämme. Dies ist keine verifizierte Serverkapazität."
         },
         {
-          "question": "Wie entscheiden Ressourcen und Tickets über den Sieg in RoFront?",
-          "answer": "Der Sieg wird durch die Einnahme strategischer Sektoren errungen, um feindliche Tickets abzubauen, während Schrott zum Bau fester Befestigungen genutzt wird."
+          "question": "Was ist die Siegbedingung?",
+          "answer": "Die offizielle Beschreibung besagt, dass die Eroberung von 80 % der Welt die Siegbedingung ist."
         }
       ]
     },
     "finalCta": {
-      "title": "Bereit, die Welt in RoFront zu Erobern?",
-      "description": "Von deinem ersten eingenommenen Territorium bis zum Sieg in globalen PvP-Schlachten: Unser Community-Wiki begleitet dich mit fundierten Strategie-Guides und Updates.",
-      "primary": "Einsteiger-Guide Lesen",
-      "secondary": "Auf Roblox Spielen"
+      "title": "Bereit, die Welt in RoFront zu erobern?",
+      "description": "Von der Beanspruchung deiner ersten Nation bis zu globalen PvP-Kriegen bietet dieses Fan-Wiki allgemeine Strategieempfehlungen und klar dargelegte Dokumentationsgrenzen, um dir zu helfen, Territoriumseroberung zu verstehen.",
+      "primary": "Lies den Einsteiger-Guide",
+      "secondary": "Auf Roblox spielen"
     }
   },
   "shared": {
     "wikiNavigation": "Wiki-Navigation",
-    "activeCodes": "Aktive Codes",
+    "activeCodes": "Code-Status",
     "updated": "Aktualisiert",
-    "viewAllCodes": "Alle Codes anzeigen",
+    "viewAllCodes": "Code-Status lesen",
     "playOnRoblox": "Auf Roblox spielen",
     "inThisSection": "In diesem Abschnitt",
     "tableOfContents": "Inhaltsverzeichnis",
     "nextSteps": "Nächste Schritte",
     "needHelp": "Brauchst du Hilfe?",
-    "relatedReading": "Verwandte Artikel",
+    "relatedReading": "Verwandte Lektüre",
     "relatedGuides": "Verwandte Guides",
     "readMore": "Mehr lesen",
-    "officialMedia": "Offizielle Medien",
+    "officialMedia": "Spielübersicht",
     "home": "Startseite",
-    "noGuidesAvailable": "Derzeit sind noch keine Guides verfügbar. Schau bald wieder vorbei!"
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
   },
   "footer": {
     "aboutTitle": "RoFront Wiki",
-    "about": "Das RoFront Wiki ist eine unabhängige, von Fans erstellte Wissensdatenbank für Nationenfortschritt, territoriale Expansion, Kriegsführung und Spielmechaniken für alle RoFront-Spieler.",
+    "about": "RoFront Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub, der Nationen-Notizen, Vorschläge zur Territoriumsexpansion und Dokumentationsgrenzen für RoFront-Spieler abdeckt.",
     "quickLinks": "Schnelllinks",
     "guides": "Guides",
     "legal": "Rechtliches",
-    "copyright": "2026 RoFront Wiki. Nicht verbunden mit Torrey Pines oder Roblox.",
-    "description": "Globales Territorium-Eroberungs-Strategiespiel auf Roblox mit 88 spielbaren Nationen.",
-    "playGame": "RoFront auf Roblox Spielen",
-    "officialDiscord": "Roblox Community",
-    "officialYoutube": "Gameplay-Präsentation",
-    "vvBuilder": "Strategie-Planer",
+    "copyright": "2026 RoFront Wiki. Nicht mit Torrey Pines oder Roblox verbunden.",
+    "description": "Roblox-Echtzeit-Territoriumseroberungs-Strategie-PvP-Spiel mit 88 Nationen, die in seiner Beschreibung beworben werden.",
+    "playGame": "RoFront auf Roblox spielen",
+    "officialDiscord": "Roblox-Spielseite",
+    "officialYoutube": "Spielübersicht",
+    "vvBuilder": "Strategie-Notizen",
     "beginnerGuide": "Einsteiger-Guide",
     "raceGuides": "Nationen-Guides",
     "bossGuides": "Strategie-Guides",
-    "buildGuide": "Bau-Guide",
-    "privacyPolicy": "Datenschutzerklärung",
+    "buildGuide": "Städtebau-Guide",
+    "privacyPolicy": "Datenschutzrichtlinie",
     "termsOfService": "Nutzungsbedingungen"
   },
   "guide": {
-    "overviewTitle": "RoFront Guides & Komplettlösungen",
-    "overviewDescription": "Wichtige Einsteiger-Leitfäden, Starttipps und Gameplay-Guides für die Kriegsführung und territoriale Expansion in RoFront."
+    "overviewTitle": "RoFront Einsteiger-Guides",
+    "overviewDescription": "Einsteigerorientierte Walkthroughs und allgemeine Tipps zum Starten einer Nation, Expandieren und Verstehen der Territoriumseroberung."
   },
   "mechanics": {
-    "overviewTitle": "RoFront Spielmechaniken",
-    "overviewDescription": "Umfassende Aufschlüsselung der Wirtschaft, Ressourcengewinnung, Diplomatiesysteme und Kernmechaniken in RoFront."
+    "overviewTitle": "RoFront Wirtschaft & Mechaniken",
+    "overviewDescription": "Allgemeine Hinweise zu Wirtschaft, Expansion, Gebäuden und dokumentierten Grenzen. Genaue Formeln und Kosten werden hier nicht verifiziert."
   },
   "combat": {
-    "overviewTitle": "RoFront Kampf- & Kriegsstrategien",
-    "overviewDescription": "Meistere Truppenmobilisierung, Schlachtfeldtaktiken, Verteidigungsstrukturen und Offensivmanöver in RoFront."
+    "overviewTitle": "RoFront Eroberung & Krieg",
+    "overviewDescription": "Allgemeine Anleitung zum Angreifen von Nachbarn, Verteidigen von Territorium, Allianzen und dem 80-%-Eroberungsziel aus der offiziellen Beschreibung."
   },
   "maps": {
-    "overviewTitle": "RoFront Karten & Weltterritorien",
-    "overviewDescription": "Detaillierte Weltkarten, taktische Gebietsanalysen, Engpässe und geografische Aufteilungen in RoFront."
+    "overviewTitle": "RoFront Welt & Territorien",
+    "overviewDescription": "Weltkarte und Territoriumsübersicht. Es werden keine bestätigten benutzerdefinierten Karten oder umfassenden Layout-Tabellen beansprucht."
   },
   "progression": {
-    "overviewTitle": "RoFront Fortschritts- & Expansionsstrategien",
-    "overviewDescription": "Optimale Bau-Reihenfolgen, nationale Expansionstaktiken und siegbringende Strategien für RoFront Matches."
+    "overviewTitle": "RoFront Expansion & Fortschritt",
+    "overviewDescription": "Allgemeine Expansionsvorschläge und Nationen-Notizen. Build-Reihenfolgen und Gewinnstrategien werden nicht als feste Fakten beworben."
   },
   "controls": {
-    "overviewTitle": "RoFront Steuerung & Tastenbelegung",
-    "overviewDescription": "Vollständige Tastaturbelegung, Einheiten-Befehlskürzel, Kamerasteuerung und empfohlene Einstellungen für RoFront."
+    "overviewTitle": "RoFront Einstellungen & Steuerung",
+    "overviewDescription": "Allgemeine Einstellungs- und Steuerungshinweise. Prüfe die In-Game-Menüs auf aktuelle Belegungen, anstatt eine umfassende Steuerungstabelle zu erwarten."
   },
   "community": {
-    "overviewTitle": "RoFront Community & Offizielle Updates",
-    "overviewDescription": "Aktuelle Spiel-Updates, Patch-Notes, Entwickler-Leaks, Discord-Links und Community-Ressourcen für RoFront."
+    "overviewTitle": "RoFront Community & Updates",
+    "overviewDescription": "Offizielle Update-Links und Community-Hinweise. Hier werden keine Discord-Einladung, kein Subreddit, keine Roadmap oder Patch-Notes bestätigt."
   }
 }

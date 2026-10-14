@@ -1,167 +1,68 @@
 export const metadata = {
-  title: "Guía de mapas de RoFront: Distribuciones tácticas, puntos de estrangulamiento y estrategias de flanqueo",
-  description: "Domina cada mapa de RoFront con nuestra guía táctica detallada, que abarca sectores clave, navegación por trincheras, control de terrenos elevados y posicionamiento de reaparición.",
+  title: "Guía del mapa de RoFront: Cómo leer el tablero de conquista World PvP",
+  description: "Una guía práctica del mapa de RoFront en el juego de conquista de territorios de Roblox de Torrey Pines: fronteras, vecinos, edificios y el objetivo de victoria del 80%.",
   category: "maps",
-  date: "2026-10-10",
-}
+  date: "2026-10-14",
+};
 
-Dominar la conciencia espacial es la línea divisoria entre dominar el objetivo y esperar constantemente en la pantalla de reaparición. Ya sea que estés cargando a través de trincheras con alambre de espino o defendiendo una zona de captura disputada, desplazarse eficazmente por un mapa de RoFront es el factor más crítico para determinar tu supervivencia en combate. Aprender cómo se cruzan las líneas de visión y dónde se forman los cuellos de botella defensivos en cada mapa de RoFront le permite a tu escuadrón dictar el ritmo de la batalla en lugar de reaccionar a las emboscadas enemigas.
+El mapa de RoFront es todo el tablero de juego. En [RoFront [World PvP]](https://www.roblox.com/games/137151641329864/RoFront) de Torrey Pines, no apareces en un pasillo ni en un lobby — apareces en una nación sobre un mapa mundial, y todo lo que haces ocurre cambiando el aspecto de ese mapa. La descripción oficial lo llama "conquista de territorios en tiempo real", basado en el juego Open Front, con los créditos del mapa atribuidos a Open Front. Esa sola frase explica por qué el mapa importa más aquí que en casi cualquier otra experiencia de Roblox: tu territorio, tus fronteras y tus vecinos son el estado real de la partida.
 
-En los shooters tácticos, la victoria rara vez pertenece únicamente al jugador con reflejos rápidos; pertenece al combatiente que comprende el posicionamiento, los ángulos de aproximación y las rutas de retirada. En este desglose táctico detallado, analizamos los fundamentos de los mapas, la división por sectores, el control de elevaciones, las estrategias de despliegue de clases y las rutas de flanqueo de alto porcentaje para que puedas dominar el frente.
+Esta guía separa lo que el desarrollador anuncia de lo que los jugadores pueden inferir razonablemente, y señala lo que simplemente aún no está documentado.
 
----
+## Qué es realmente el mapa de RoFront
 
-## Anatomía de un mapa estándar de RoFront: Sectores, líneas y frentes de batalla
+Según la ficha oficial de Roblox, RoFront es un juego de conquista de territorios en tiempo real. "Te expandes desde una sola nación, atacas a tus vecinos, construyes ciudades, puertos y fábricas, forjas alianzas y lanzas armas nucleares contra 88 naciones de jugadores y cientos de tribus." La condición de victoria declarada es "conquistar el 80% del mundo".
 
-Cada campo de batalla competitivo en el juego sigue principios arquitectónicos deliberados diseñados para canalizar los enfrentamientos de infantería hacia puntos focales intensos. Cuando examinas la distribución de un mapa estándar de RoFront, observarás rápidamente una estructura de tres líneas anclada por bases principales fortificadas, zonas de tránsito intermedias y objetivos centrales de gran valor. 
+Ese es todo el conjunto de características verificadas. Fíjate en lo que no dice. No se mencionan tipos de tropas, estadísticas de unidades, cifras de daño, fórmulas de recursos, atajos de teclado ni órdenes de construcción. La descripción nombra sistemas — expansión, ciudades, puertos, fábricas, alianzas, armas nucleares — pero no su implementación. Cualquiera que te diga el costo exacto de una fábrica o el ataque inicial óptimo está trabajando desde su propia partida, no desde la documentación del desarrollador.
 
-```
-[Base Equipo Alfa] ---> [Trinchera secundaria/Sector B]
-        |                           |
-        v                           v
-[Ruta de flanco este] <---> [Objetivo central neutral] <---> [Ruta de flanco oeste]
-                                    ^                           ^
-                                    |                           |
-                        [Trinchera secundaria/Sector A] <--- [Base Equipo Bravo]
-```
+El mapa en sí está acreditado a Open Front. Eso significa que la geografía que estás viendo está tomada del diseño de otro juego, no fue creada específicamente para RoFront. Las reglas propias de Open Front, sin embargo, no pueden decirte cómo funcionan los controles o el equilibrio de RoFront. Trata la disposición del mapa como patrimonio compartido y las mecánicas como propias de RoFront.
 
-El frente rara vez es estático. Fluye y refluye según cómo los escuadrones gestionen el terreno neutral, a menudo denominado tierra de nadie. Estas zonas intermedias carecen de estructuras defensivas pesadas y obligan a las tropas que avanzan a depender de coberturas desplegables, pantallas de humo y avances escalonados coordinados con fuego de cobertura.
+## Leer tu posición antes de moverte
 
-### Zonas principales del mapa y flujo espacial
+Lo más útil que puede hacer un jugador nuevo en el mapa de RoFront es nada en absoluto durante el primer minuto. Ubica tu territorio. Identifica qué naciones comparten tu frontera. Encuentra el indicador de control mundial, que la descripción oficial implica a través de su condición de victoria del 80%.
 
-Comprender los perfiles de riesgo del terreno te permite evaluar los niveles de peligro antes de avanzar. Correr hacia un campo abierto sin comprobar las posiciones defensivas casi siempre resulta en una eliminación rápida.
+Una guía de terceros de [Nisu](https://nisu.io/guides/rofront-roblox-guide/) señala aquí un punto razonable: juzga tu progreso por el medidor de control mundial, no por lo grande que parece tu área coloreada en tu nivel de zoom actual. Con zoom cercano, un imperio modesto puede parecer enorme. Con zoom alejado, puede parecer un punto. El medidor es el número honesto.
 
-| Zona | Nivel de cobertura estructural | Exposición a líneas de visión | Valor estratégico | Enfoque recomendado para el jugador |
-| :--- | :--- | :--- | :--- | :--- |
-| **Apariciones en base principal** | Pesada (Búnkeres reforzados, sacos de arena) | Baja (Salidas de aparición protegidas) | Bajo (Punto de reunión inicial) | Agruparse, comprobar equipamiento, coordinar el avance inicial |
-| **Trincheras secundarias de apoyo** | Media (Muros de tierra, revestimientos) | Moderada (Vulnerable a ángulos de flanqueo) | Moderado (Centro de refuerzo de apariciones) | Establecer reabastecimiento, colocar balizas de despliegue avanzadas |
-| **Tierra de nadie neutral** | Mínima (Cráteres de explosiones, escombros) | Extrema (Exposición directa a tiradores) | Variable (Vía de tránsito) | Esprintar a intervalos, lanzar granadas de humo, avanzar en equipo |
-| **Sector de captura central** | Alta (Estructuras en ruinas, búnkeres blindados) | Alta (Múltiples puntos de entrada) | Crítico (Desgaste de tickets decisivo para la partida) | Despejar esquinas, fortificar accesos, suprimir líneas de entrada |
-| **Rutas perimetrales limítrofes** | Baja a media (Crestas rocosas naturales, vegetación) | Variable (Largas líneas de visión en los bordes) | Alto (Disrupción y captura de retaguardia) | Moverse en silencio, evitar el combate hasta estar tras las líneas enemigas |
+Este es un consejo inferido de una premisa de conquista de territorios, no una mecánica medida. En cualquier juego donde la condición de victoria es un porcentaje del mundo, el porcentaje es el marcador.
 
-La experiencia de los jugadores demuestra que los equipos que mantienen las trincheras secundarias de apoyo conservan constantemente la iniciativa. Cuando un escuadrón atacante avanza demasiado hacia la zona central sin asegurar sus trincheras traseras, los flanqueadores enemigos pueden cortar las vías de refuerzo y rodear al escuadrón avanzado.
+## Fronteras, vecinos y el costo de un mal avance
 
----
+Como RoFront está basado en un mapa, cada acción que tomas redibuja una frontera en algún lugar. Eso tiene dos consecuencias que vale la pena interiorizar.
 
-## Sectores tácticos y gestión de puntos de estrangulamiento
+Primero, atacar a un vecino cambia tu frontera con ese vecino. Si el avance tiene éxito, tu frontera se mueve. Si se estanca, has gastado lo que haya costado el ataque y no has ganado nada — y puede que hayas revelado tus intenciones a alguien que ahora tiene una razón para fijarse en ti.
 
-Los puntos de estrangulamiento son los embudos naturales donde el terreno abierto converge en pasillos restringidos. En prácticamente todos los mapas de RoFront, estos cuellos de botella aparecen alrededor de cruces estrechos de trincheras, arcos de pueblos destruidos y puentes que cruzan barrancos fangosos. Controlar estos pasos estrechos impide que el equipo contrario refuerce banderas en peligro.
+Segundo, expandirte en una dirección normalmente significa dejar otra dirección más débil. La descripción oficial menciona "cientos de tribus" junto a las 88 naciones de jugadores, lo que sugiere que el mapa no es espacio vacío entre jugadores. Qué hacen esas tribus, cómo se comportan y si se puede negociar con ellas no está documentado en la ficha. Verifícalo en una partida real en lugar de asumirlo.
 
-Para defender o penetrar con éxito un punto de estrangulamiento defensivo, los escuadrones deben reconocer el perfil de peligro específico del entorno. Las cargas frontales directas contra ametralladoras atrincheradas fracasan sistemáticamente; los avances exitosos requieren un uso disciplinado de utilidades y fuego cruzado coordinado.
+| Característica anunciada | Lo que confirma la descripción | Lo que no confirma |
+|---|---|---|
+| Expansión territorial | Te expandes desde una sola nación y atacas a los vecinos | Costos de ataque, temporizadores o fórmulas de éxito |
+| Ciudades, puertos, fábricas | Se pueden construir | Costos, tiempos de construcción o efectos económicos |
+| Alianzas | Se pueden forjar | Cómo se proponen, se rompen o se hacen cumplir |
+| Ataques nucleares | Se pueden lanzar | Requisitos, alcance o consecuencias |
+| Victoria | Conquistar el 80% del mundo | Cómo se calcula el medidor |
 
-### Arquetipos de puntos de estrangulamiento y contramedidas
+## Edificios, alianzas y armas nucleares: apréndelos como sistemas separados
 
-Romper cuellos de botella fortificados exige contramedidas tácticas específicas adaptadas a la geometría del terreno.
+La ficha oficial agrupa ciudades, puertos y fábricas como cosas que construyes, pero no describe qué hace ninguna de ellas. Un puerto y una fábrica presumiblemente no son intercambiables — de lo contrario no habría razón para nombrar ambos — pero la descripción se queda corta al explicar la diferencia.
 
-| Arquetipo de punto de estrangulamiento | Ubicación típica en el mapa | Principal peligro defensivo | Estrategia de asalto recomendada | Defensa eficaz contra el asalto |
-| :--- | :--- | :--- | :--- | :--- |
-| **Cruce en T de trinchera hundida** | Conexión de la primera línea con los puntos intermedios | Granadas de fragmentación, emboscadas con subfusiles | Rebotar explosivos en las paredes, avanzar con escopeta en punta | Bloqueo con alambre de espino, ángulos de fuego cruzado coordinados |
-| **Puente estrecho / Paso de valle** | Divisiones naturales que separan cuadrantes | Vigilancia de francotiradores a larga distancia, ametralladoras fijas | Despliegue denso de humo, avance simultáneo por doble cresta | Peticiones concentradas de artillería, líneas de francotiradores cruzadas |
-| **Umbral de búnker fortificado** | Entradas a puntos centrales blindados | Posiciones de espera en esquinas ciegas, escudos desplegables | Disparo preventivo en esquinas, distracción con aturdimiento/cegadoras, armas de alta cadencia | Líneas de defensa escalonadas, rutas de rotación por salida trasera |
-| **Calle llena de escombros** | Ruinas del centro urbano | Francotiradores en ventanas de varios pisos, zonas de aniquilación por fuego cruzado | Pegarse al interior de los edificios perimetrales, demolición de paredes | Trampas con cable trampa, nidos de ametralladora elevados |
+El enfoque práctico es inspeccionar cada opción dentro del juego, leer lo que te muestre la interfaz y hacerte una pregunta antes de comprometerte: ¿qué estoy intentando mejorar ahora mismo? Si estás acorralado por vecinos, un edificio que te ayuda a proyectar fuerza importa más que uno que te ayuda a consolidarte. Si tienes espacio para crecer, lo contrario puede ser cierto. Ese razonamiento proviene de la premisa de conquista, no de una tabla económica verificada.
 
-Cada vez que tu escuadrón se acerque a un cuello de botella atrincherado, evita agruparte demasiado. Mantener una separación de al menos cinco a diez metros evita que un solo explosivo bien dirigido elimine a todo tu equipo de asalto frontal.
+Las alianzas y las armas nucleares merecen especial cautela porque ambas cambian tus relaciones con otras naciones. La descripción confirma que existen. No confirma cuándo están disponibles, cuánto cuestan ni qué ocurre diplomáticamente después de usarlas. Lee los controles dentro del juego antes de actuar, especialmente para cualquier cosa irreversible.
 
----
+## La afirmación de las 88 naciones y el tamaño del servidor
 
-## Roles de clase y sinergia de equipamiento según el diseño del mapa
+La descripción oficial dice que compites contra "88 naciones de jugadores". Eso es una descripción del alcance del juego, no una promesa sobre la capacidad del servidor. Roblox lista el tamaño del servidor como un campo separado, y los dos números no deben tratarse como lo mismo. Cuando te unas, revisa la información actual del servidor en la página de Roblox en lugar de asumir un número específico de jugadores.
 
-Tu rendimiento en cualquier mapa de RoFront depende en gran medida de adaptar la clase de tu soldado y el equipamiento de armas al terreno específico que estás recorriendo. Mientras que las clases de asalto agresivas destacan en los pasillos estrechos y serpenteantes de los sistemas de búnkeres subterráneos, se enfrentan a graves desventajas al cruzar llanuras abiertas llenas de cráteres dominadas por rifles con mira telescópica.
+## Preguntas frecuentes
 
-La composición del escuadrón debe cambiar dinámicamente según el sector específico que tu equipo esté disputando. Puedes seguir a la comunidad de shooters más amplia en la [plataforma oficial de Roblox](https://www.roblox.com) para ver cómo los equipamientos del metajuego se adaptan a los cambios de terreno con el tiempo.
+**¿Cómo se gana en el mapa de RoFront?**
+La descripción oficial dice que hay que conquistar el 80% del mundo. Vigila el indicador de control mundial en lugar de asumir que un territorio grande ha sellado la partida.
 
-### Matriz de utilidad de clases según el tipo de terreno
+**¿Es el mapa de RoFront el mismo que el de Open Front?**
+La descripción acredita a Open Front por el mapa. Eso no significa que los dos juegos compartan reglas, controles o equilibrio.
 
-Equilibrar los alcances de las armas y la utilidad táctica en tu equipo garantiza que tu escuadrón pueda responder a cualquier situación en el campo de batalla.
+**¿Qué debería construir primero?**
+No está documentado. Inspecciona las opciones de ciudad, puerto y fábrica en tu partida y elige según tu posición y sus requisitos mostrados.
 
-| Entorno del mapa | Clase recomendada | Elección de arma principal | Responsabilidad táctica clave | Error común del jugador |
-| :--- | :--- | :--- | :--- | :--- |
-| **Redes de trincheras densas** | Asalto / Asaltante | Subfusil de disparo rápido o escopeta de trinchera | Despejar esquinas, encabezar asaltos, limpiar búnkeres | Correr por pasillos largos y abiertos con armas de corto alcance |
-| **Llanuras de barro y campos abiertos** | Reconocimiento / Explorador | Rifle de cerrojo con mira o tirador semiautomático | Contrarrestar francotiradores, marcar movimientos enemigos, eliminar artilleros | Ignorar los flancos laterales por mantener la vista fija en la mira |
-| **Ruinas urbanas disputadas** | Apoyo / Artillero | Ametralladora ligera de alta capacidad | Fuego de supresión, inmovilizar accesos, suministrar munición | Disparar continuamente desde una sola ventana sin cambiar de posición |
-| **Zonas naturales perimetrales / Crestas** | Infiltrador / Hostigador | Carabina silenciada o rifle de batalla versátil | Interrumpir reapariciones traseras enemigas, destruir puntos de reunión | Enfrentarse solo a grupos grandes en lugar de cazar a los rezagados |
-| **Puntos fuertes defensivos** | Ingeniero de combate / Médico | Rifle compacto o carabina defensiva | Reanimar aliados caídos, construir fortificaciones, mantener ángulos | Lanzarse a zonas de aniquilación para revivir a compañeros expuestos |
-
-Un error común observado en los informes de la comunidad es una dependencia excesiva de los rifles de francotirador en distribuciones urbanas o con abundantes trincheras. Aunque abatir enemigos que avanzan resulte gratificante en la tabla de puntuación, los especialistas de largo alcance no pueden defender fácilmente banderas dentro de estructuras cerradas, lo que deja al equipo vulnerable a capturas repentinas del objetivo.
-
----
-
-## Control de elevación y estrategias defensivas de líneas de visión
-
-En el combate táctico, controlar el terreno elevado otorga una ventaja táctica inmediata. Elevar tu posición amplía tu cono visual, despeja barreras defensivas y te permite apuntar a enemigos que se refugian tras sacos de arena bajos o dentro de líneas de trincheras abiertas. Sin embargo, las posiciones elevadas también hacen que tu silueta destaque sobre el horizonte.
-
-```
-Diagrama de ventaja de elevación:
-[ Torreta alta / Cresta ]    <-- Líneas de visión despejadas hacia las trincheras
-       \               /
-        \ Zona mortal /
-         v           v
-  [ Trinchera A ] [ Trinchera B ] <-- Visibilidad ascendente limitada, movimiento restringido
-```
-
-Al mantener una posición elevada en un mapa de RoFront, un posicionamiento inteligente implica aprovechar el desenfilamiento: usar las pendientes naturales para proteger la parte inferior del cuerpo y exponer únicamente la cabeza y el arma al enfrentarse a los objetivos.
-
-### Evaluación de riesgo vs. recompensa del terreno elevado
-
-Ocupar posiciones prominentes exige sopesar la potencia de fuego ofensiva que obtienes frente a tu mayor visibilidad ante los tiradores enemigos.
-
-| Tipo de posición elevada | Ventaja táctica | Vulnerabilidad inherente | Estrategia de mitigación | Consejo de coordinación de escuadrón |
-| :--- | :--- | :--- | :--- | :--- |
-| **Campanario de iglesia en ruinas / Torre** | Vigilancia de 360 grados sobre puntos centrales | Objetivo obvio para artillería y francotiradores enemigos | Disparar dos ráfagas y agacharse tras los parapetos de piedra | Mantener un vigía cubriendo la entrada de la planta baja |
-| **Afloramientos rocosos en acantilados** | Domina las rutas laterales de flanqueo | Sin protección trasera contra infiltrados | Colocar trampas de alerta o minas defensivas en los senderos de acceso | Usar fuego semiautomático para evitar ser detectado por el fogonazo |
-| **Ruinas de edificios de segunda planta** | Ángulos descendentes hacia las entradas del objetivo | Destrucción estructural, vulnerabilidad a granadas | Cambiar constantemente entre diferentes marcos de ventanas | Mantener un médico estacionado en la escalera de la planta baja |
-| **Terraplenes elevados de vías o caminos** | Barrera natural de gran longitud | El trazado lineal hace que los disparos a la cabeza sean predecibles | Avanzar agachado por las laderas; evitar erguirse sobre la cresta | Establecer fuego cruzado con aliados en las laderas opuestas |
-
-Nunca te quedes inmóvil en un nido de francotirador elevado tras conseguir dos o tres bajas. Los escuadrones experimentados rastrean rápidamente los fogonazos y bombardearán las posiciones elevadas predecibles con fuego de mortero, explosivos pesados o ataques por el flanco.
-
----
-
-## Movimiento avanzado, flanqueo y dinámicas de rotación de aparición
-
-Los enfrentamientos directos agotan rápidamente los tickets de refuerzo del escuadrón. Para romper situaciones de estancamiento en cualquier mapa de RoFront, las maniobras de flanqueo coordinadas son esenciales. Flanquear obliga al enemigo a dividir su atención defensiva entre dos ángulos divergentes, desmoronando sus líneas de frente.
-
-Las rotaciones exitosas dependen de tu capacidad para predecir los ciclos de reaparición del enemigo. Cada vez que tu equipo captura un objetivo, las oleadas de aparición enemigas se desplazan a bases secundarias o a las balizas de escuadrón avanzadas supervivientes. Reconocer esta transición te permite interceptar refuerzos antes de que establezcan líneas defensivas.
-
-### Vectores de flanqueo y características de las rutas
-
-Seleccionar la ruta de flanqueo adecuada depende de la rapidez con la que tu escuadrón necesite llegar al objetivo y de la resistencia enemiga que esperes encontrar en el camino.
-
-| Perfil de la ruta de flanqueo | Velocidad de tránsito | Riesgo de detección | Tamaño ideal de escuadrón | Mejor momento táctico |
-| :--- | :--- | :--- | :--- | :--- |
-| **Flanqueo largo por el límite exterior** | Lenta (Larga distancia de viaje) | Muy bajo (Muy alejado de las rutas principales) | 2–3 jugadores (Equipo de infiltración) | Estancamiento en primera línea donde el paso central está completamente bloqueado |
-| **Tubería de drenaje de trinchera** | Rápida (Ruta subterránea directa) | Alto (Propensa a emboscadas a corta distancia) | 1–2 jugadores (Atacantes agresivos) | El equipo enemigo está distraído por intensos bombardeos de artillería central |
-| **Descenso por ladera inversa** | Moderada (Superar desniveles del terreno) | Moderado (Expuesto durante el descenso de la pendiente) | 3–4 jugadores (Avance de equipo de asalto completo) | Contraataque a mitad de partida para recapturar banderas secundarias perdidas |
-| **Corte frontal cubierto de humo** | Muy rápida (Línea directa a través del centro) | Extremo (Depende totalmente de la ocultación) | Más de 4 jugadores (Asalto coordinado) | Último minuto de partida cuando la cuenta de tickets exige una captura urgente |
-
-Al realizar un flanqueo amplio, mantén la disciplina de disparo. Evita abrir fuego contra enemigos distantes e intrascendentes mientras te desplazas por las crestas perimetrales. Disparar tu arma revela tu posición en el mapa, alerta a las patrullas cercanas y arruina el factor sorpresa antes de que alcances el puesto de mando trasero del enemigo.
-
----
-
-## Lista de comprobación táctica para cada partida
-
-Para mantener un alto rendimiento y ayudar a tu equipo a asegurar la victoria, repasa esta lista de comprobación mental cada vez que reaparezcas en una partida activa:
-
-- [ ] **Evaluar el estado del mapa:** Observa los sectores controlados actualmente para identificar qué línea del frente necesita refuerzos inmediatos.
-- [ ] **Comprobar la distribución del escuadrón:** Asegúrate de que tu escuadrón no esté apelotonado en un solo lugar; dispérsense para cubrir ángulos complementarios.
-- [ ] **Seleccionar equipamientos adecuados al sector:** Cambia de rifles de largo alcance a carabinas o escopetas de corto alcance al pasar de campos abiertos a búnkeres interiores.
-- [ ] **Vigilar las alertas de flanqueo:** Revisa periódicamente los caminos laterales abiertos en busca de movimientos enemigos sigilosos que intenten capturar tu base por la espalda.
-- [ ] **Utilizar herramientas de ocultación:** Lleva siempre granadas de humo o barreras defensivas cuando avances por terrenos expuestos y embarrados.
-- [ ] **Comunicar las posiciones enemigas:** Avisa sobre nidos de ametralladoras fortificados y puestos de francotirador para que tus compañeros no corran a ciegas hacia zonas de aniquilación.
-
-Aplicar estos hábitos estructurados en el campo de batalla garantiza un control constante del mapa, manteniendo a tu equipo a la ofensiva y agotando gradualmente las reservas de tickets del enemigo.
-
----
-
-## Preguntas frecuentes sobre los mapas de RoFront
-
-### ¿Cuál es la estrategia más eficaz para aprender rápidamente un nuevo mapa de RoFront?
-La forma más rápida de aprender la distribución de cualquier campo de batalla nuevo es comenzar las partidas desempeñando un rol de apoyo, como médico de combate o artillero de apoyo. Seguir a escuadrones de asalto experimentados te permite observar las rutas de tránsito comunes, los puntos de estrangulamiento y las líneas de visión de francotiradores sin necesidad de encabezar constantemente el asalto hacia zonas peligrosas. Toma nota de dónde estallan los tiroteos más intensos y explora rutas de flanqueo por los límites exteriores para descubrir vías de aproximación alternativas.
-
-### ¿Cómo se contrarresta a los francotiradores que bloquean pasillos largos en mapas abiertos?
-Para contrarrestar a tiradores atrincherados, evita desafiarlos directamente a través de sus líneas de visión principales con armas de corto alcance. En su lugar, usa granadas de humo para oscurecer su campo visual, obligándolos a adivinar tu movimiento. Al mismo tiempo, envía a un contrafrancotirador designado para que ataque desde un ángulo inesperado, o despliega una unidad ligera de flanqueo por las rutas perimetrales para eliminar al francotirador por la espalda.
-
-### ¿Por qué los equipos suelen perder el control del punto de captura central?
-Por lo general, los equipos pierden los objetivos centrales debido a una mala defensa espacial más que a una falta de potencia de fuego. Con frecuencia, los jugadores se agrupan directamente sobre la bandera de captura, quedando vulnerables a un único ataque explosivo o a maniobras de flanqueo. Para defender un objetivo eficazmente, establece un perímetro defensivo en las trincheras y edificios circundantes para detener a los atacantes mucho antes de que alcancen la zona de captura.
-
-### ¿Qué debes hacer cuando estás inmovilizado dentro de un sistema de trincheras?
-Si tu escuadrón queda atrapado dentro de una red de trincheras bajo fuego intenso, no intentes asomarte por encima de los sacos de arena desde el punto exacto donde el enemigo te espera. Lanza granadas de humo directamente hacia la línea de fuego enemiga, retrocede a través de los recodos en zigzag de la trinchera para romper su línea de visión y coordina un contraataque utilizando escaleras de salida secundarias para golpear sus flancos.
+**¿Dónde verifico cualquier cosa no cubierta aquí?**
+Abre [RoFront [World PvP]](https://www.roblox.com/games/137151641329864/RoFront) directamente, confirma que el creador es Torrey Pines y lee la interfaz dentro del juego. Las búsquedas de nombres similares pueden mostrar juegos no relacionados, incluidos shooters que no comparten ninguno de estos sistemas.
